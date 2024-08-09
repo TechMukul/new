@@ -1,0 +1,490 @@
+{
+    "sourceFile": "pages/home/index.module.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 118,
+            "patches": [
+                {
+                    "date": 1723094639788,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1723094736517,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n .bg{\r\n-    \r\n+    background:#1583a7;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1723094772244,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n .bg{\r\n     background:#1583a7;\r\n+    color: #E20F0F;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1723094827920,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n .bg{\r\n     background:#1583a7;\r\n-    color: #E20F0F;\r\n+    color: #FFC107;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1723094848845,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n .bg{\r\n     background:#1583a7;\r\n-    color: #FFC107;\r\n+    \r\n+    h1{color: #FFC107;}\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1723094862579,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n .bg{\r\n     background:#1583a7;\r\n     \r\n     h1{color: #FFC107;}\r\n+    p{color: white;}\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1723094903680,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .bg{\r\n     background:#1583a7;\r\n     \r\n-    h1{color: #FFC107;}\r\n+    h1{color: #FFC107;align-items: center;}\r\n     p{color: white;}\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1723094915289,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .bg{\r\n     background:#1583a7;\r\n     \r\n-    h1{color: #FFC107;align-items: center;}\r\n-    p{color: white;}\r\n+    h1{color: #FFC107;align-items: center;text-align: center;}\r\n+    p{color: white;text-align: center;}\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1723096031479,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,5 +2,6 @@\n     background:#1583a7;\r\n     \r\n     h1{color: #FFC107;align-items: center;text-align: center;}\r\n     p{color: white;text-align: center;}\r\n+    height: 20vh;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1723096039604,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n     background:#1583a7;\r\n     \r\n     h1{color: #FFC107;align-items: center;text-align: center;}\r\n     p{color: white;text-align: center;}\r\n-    height: 20vh;\r\n+    height: 50vh;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1723096056909,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .bg{\r\n     background:#1583a7;\r\n     \r\n-    h1{color: #FFC107;align-items: center;text-align: center;}\r\n+    h1{color: #FFC107;align-items: center;text-align: center;top: 20%;}\r\n     p{color: white;text-align: center;}\r\n-    height: 50vh;\r\n+    height: 40vh;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1723096065183,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .bg{\r\n     background:#1583a7;\r\n     \r\n-    h1{color: #FFC107;align-items: center;text-align: center;top: 20%;}\r\n+    h1{color: #FFC107;align-items: center;text-align: center;margin-top: 20%;}\r\n     p{color: white;text-align: center;}\r\n     height: 40vh;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1723096080696,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .bg{\r\n     background:#1583a7;\r\n     \r\n-    h1{color: #FFC107;align-items: center;text-align: center;margin-top: 20%;}\r\n+    h1{color: #FFC107;align-items: center;text-align: center;padding-top: 20%;}\r\n     p{color: white;text-align: center;}\r\n     height: 40vh;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1723096087782,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .bg{\r\n     background:#1583a7;\r\n     \r\n-    h1{color: #FFC107;align-items: center;text-align: center;padding-top: 20%;}\r\n+    h1{color: #FFC107;align-items: center;text-align: center;padding-top: 2%;}\r\n     p{color: white;text-align: center;}\r\n     height: 40vh;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1723096096799,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .bg{\r\n     background:#1583a7;\r\n     \r\n     h1{color: #FFC107;align-items: center;text-align: center;padding-top: 2%;}\r\n-    p{color: white;text-align: center;}\r\n+    p{color: white;text-align: center; padding-top: 2%;}\r\n     height: 40vh;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1723096121318,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .bg{\r\n     background:#1583a7;\r\n     \r\n     h1{color: #FFC107;align-items: center;text-align: center;padding-top: 2%;}\r\n-    p{color: white;text-align: center; padding-top: 2%;}\r\n+    p{color: white;text-align: center; padding-top: 2%;font-weight: bolder;}\r\n     height: 40vh;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1723096128051,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .bg{\r\n     background:#1583a7;\r\n     \r\n     h1{color: #FFC107;align-items: center;text-align: center;padding-top: 2%;}\r\n-    p{color: white;text-align: center; padding-top: 2%;font-weight: bolder;}\r\n+    p{color: white;text-align: center; padding-top: 2%;font-weight: bolder;font-size: larger;}\r\n     height: 40vh;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1723096259610,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .bg{\r\n     background:#1583a7;\r\n-    \r\n+    width: 20%;\r\n     h1{color: #FFC107;align-items: center;text-align: center;padding-top: 2%;}\r\n     p{color: white;text-align: center; padding-top: 2%;font-weight: bolder;font-size: larger;}\r\n     height: 40vh;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1723096369700,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n .bg{\r\n     background:#1583a7;\r\n     width: 20%;\r\n+    align-items: center;\r\n     h1{color: #FFC107;align-items: center;text-align: center;padding-top: 2%;}\r\n     p{color: white;text-align: center; padding-top: 2%;font-weight: bolder;font-size: larger;}\r\n     height: 40vh;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1723096379392,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n .bg{\r\n     background:#1583a7;\r\n     width: 20%;\r\n     align-items: center;\r\n+    align-content: center;\r\n     h1{color: #FFC107;align-items: center;text-align: center;padding-top: 2%;}\r\n     p{color: white;text-align: center; padding-top: 2%;font-weight: bolder;font-size: larger;}\r\n     height: 40vh;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1723096411726,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,13 @@\n+.container{\r\n+    background: #2F87ED;\r\n+}\r\n .bg{\r\n     background:#1583a7;\r\n     width: 20%;\r\n     align-items: center;\r\n     align-content: center;\r\n+    \r\n     h1{color: #FFC107;align-items: center;text-align: center;padding-top: 2%;}\r\n     p{color: white;text-align: center; padding-top: 2%;font-weight: bolder;font-size: larger;}\r\n     height: 40vh;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1723096763782,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n     background: #2F87ED;\r\n }\r\n .bg{\r\n     background:#1583a7;\r\n+    margin: 0 auto;\r\n     width: 20%;\r\n     align-items: center;\r\n     align-content: center;\r\n     \r\n"
+                },
+                {
+                    "date": 1723096782264,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n }\r\n .bg{\r\n     background:#1583a7;\r\n     margin: 0 auto;\r\n-    width: 20%;\r\n+    width: 60%;\r\n     align-items: center;\r\n     align-content: center;\r\n     \r\n     h1{color: #FFC107;align-items: center;text-align: center;padding-top: 2%;}\r\n"
+                },
+                {
+                    "date": 1723096804623,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,10 +2,10 @@\n     background: #2F87ED;\r\n }\r\n .bg{\r\n     background:#1583a7;\r\n-    margin: 0 auto;\r\n-    width: 60%;\r\n+    margin: 10 auto;\r\n+    width: 90%;\r\n     align-items: center;\r\n     align-content: center;\r\n     \r\n     h1{color: #FFC107;align-items: center;text-align: center;padding-top: 2%;}\r\n"
+                },
+                {
+                    "date": 1723096819617,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,10 @@\n     background: #2F87ED;\r\n }\r\n .bg{\r\n     background:#1583a7;\r\n-    margin: 10 auto;\r\n+    margin: 0 auto;\r\n+    margin-top: 20px;\r\n     width: 90%;\r\n     align-items: center;\r\n     align-content: center;\r\n     \r\n"
+                },
+                {
+                    "date": 1723096831454,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,9 @@\n     margin-top: 20px;\r\n     width: 90%;\r\n     align-items: center;\r\n     align-content: center;\r\n+    border: 8px solid black;\r\n     \r\n     h1{color: #FFC107;align-items: center;text-align: center;padding-top: 2%;}\r\n     p{color: white;text-align: center; padding-top: 2%;font-weight: bolder;font-size: larger;}\r\n     height: 40vh;\r\n"
+                },
+                {
+                    "date": 1723096842118,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n     margin-top: 20px;\r\n     width: 90%;\r\n     align-items: center;\r\n     align-content: center;\r\n-    border: 8px solid black;\r\n+    border: 5px solid black;\r\n     \r\n     h1{color: #FFC107;align-items: center;text-align: center;padding-top: 2%;}\r\n     p{color: white;text-align: center; padding-top: 2%;font-weight: bolder;font-size: larger;}\r\n     height: 40vh;\r\n"
+                },
+                {
+                    "date": 1723096877767,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,10 +7,10 @@\n     margin-top: 20px;\r\n     width: 90%;\r\n     align-items: center;\r\n     align-content: center;\r\n-    border: 5px solid black;\r\n-    \r\n+    border: 6px solid black;\r\n+    border-radius: 1%;\r\n     h1{color: #FFC107;align-items: center;text-align: center;padding-top: 2%;}\r\n     p{color: white;text-align: center; padding-top: 2%;font-weight: bolder;font-size: larger;}\r\n     height: 40vh;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1723096882913,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n     width: 90%;\r\n     align-items: center;\r\n     align-content: center;\r\n     border: 6px solid black;\r\n-    border-radius: 1%;\r\n+    border-radius: 6%;\r\n     h1{color: #FFC107;align-items: center;text-align: center;padding-top: 2%;}\r\n     p{color: white;text-align: center; padding-top: 2%;font-weight: bolder;font-size: larger;}\r\n     height: 40vh;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1723096894299,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n     width: 90%;\r\n     align-items: center;\r\n     align-content: center;\r\n     border: 6px solid black;\r\n-    border-radius: 6%;\r\n+    border-radius: 10%;\r\n     h1{color: #FFC107;align-items: center;text-align: center;padding-top: 2%;}\r\n     p{color: white;text-align: center; padding-top: 2%;font-weight: bolder;font-size: larger;}\r\n     height: 40vh;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1723096903427,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n     width: 90%;\r\n     align-items: center;\r\n     align-content: center;\r\n     border: 6px solid black;\r\n-    border-radius: 10%;\r\n+    border-radius: 1100%;\r\n     h1{color: #FFC107;align-items: center;text-align: center;padding-top: 2%;}\r\n     p{color: white;text-align: center; padding-top: 2%;font-weight: bolder;font-size: larger;}\r\n     height: 40vh;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1723096909295,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n     width: 90%;\r\n     align-items: center;\r\n     align-content: center;\r\n     border: 6px solid black;\r\n-    border-radius: 1100%;\r\n+    border-radius: 1%;\r\n     h1{color: #FFC107;align-items: center;text-align: center;padding-top: 2%;}\r\n     p{color: white;text-align: center; padding-top: 2%;font-weight: bolder;font-size: larger;}\r\n     height: 40vh;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1723096967564,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n     width: 90%;\r\n     align-items: center;\r\n     align-content: center;\r\n     border: 6px solid black;\r\n-    border-radius: 1%;\r\n+    border-radius: 5%;\r\n     h1{color: #FFC107;align-items: center;text-align: center;padding-top: 2%;}\r\n     p{color: white;text-align: center; padding-top: 2%;font-weight: bolder;font-size: larger;}\r\n     height: 40vh;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1723096978970,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n     width: 90%;\r\n     align-items: center;\r\n     align-content: center;\r\n     border: 6px solid black;\r\n-    border-radius: 5%;\r\n+    border-radius: 15px;\r\n     h1{color: #FFC107;align-items: center;text-align: center;padding-top: 2%;}\r\n     p{color: white;text-align: center; padding-top: 2%;font-weight: bolder;font-size: larger;}\r\n     height: 40vh;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1723097068276,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .container{\r\n     background: #2F87ED;\r\n }\r\n .bg{\r\n-    background:#1583a7;\r\n+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);\r\n     margin: 0 auto;\r\n     margin-top: 20px;\r\n     width: 90%;\r\n     align-items: center;\r\n"
+                },
+                {
+                    "date": 1723097124126,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,9 @@\n     margin: 0 auto;\r\n     margin-top: 20px;\r\n     width: 90%;\r\n     align-items: center;\r\n+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;\r\n     align-content: center;\r\n     border: 6px solid black;\r\n     border-radius: 15px;\r\n     h1{color: #FFC107;align-items: center;text-align: center;padding-top: 2%;}\r\n"
+                },
+                {
+                    "date": 1723097153507,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     margin: 0 auto;\r\n     margin-top: 20px;\r\n     width: 90%;\r\n     align-items: center;\r\n-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;\r\n+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;\r\n     align-content: center;\r\n     border: 6px solid black;\r\n     border-radius: 15px;\r\n     h1{color: #FFC107;align-items: center;text-align: center;padding-top: 2%;}\r\n"
+                },
+                {
+                    "date": 1723097218233,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     margin: 0 auto;\r\n     margin-top: 20px;\r\n     width: 90%;\r\n     align-items: center;\r\n-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;\r\n+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;\r\n     align-content: center;\r\n     border: 6px solid black;\r\n     border-radius: 15px;\r\n     h1{color: #FFC107;align-items: center;text-align: center;padding-top: 2%;}\r\n"
+                },
+                {
+                    "date": 1723097426037,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,9 @@\n     align-items: center;\r\n     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;\r\n     align-content: center;\r\n     border: 6px solid black;\r\n+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\r\n     border-radius: 15px;\r\n     h1{color: #FFC107;align-items: center;text-align: center;padding-top: 2%;}\r\n     p{color: white;text-align: center; padding-top: 2%;font-weight: bolder;font-size: larger;}\r\n     height: 40vh;\r\n"
+                },
+                {
+                    "date": 1723097649545,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,18 +1,41 @@\n-.container{\r\n+/* Global styles for fonts (in your globals.css or a relevant stylesheet) */\r\n+body {\r\n+    font-family: 'Oswald', sans-serif; /* Apply Oswald font to the whole document */\r\n+  }\r\n+  \r\n+  h1 {\r\n+    font-family: 'Aclonica', sans-serif; /* Apply Aclonica font to all h1 elements */\r\n+  }\r\n+  \r\n+  .container {\r\n     background: #2F87ED;\r\n-}\r\n-.bg{\r\n+  }\r\n+  \r\n+  .bg {\r\n     background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);\r\n\\ No newline at end of file\n     margin: 0 auto;\r\n     margin-top: 20px;\r\n     width: 90%;\r\n     align-items: center;\r\n     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;\r\n     align-content: center;\r\n     border: 6px solid black;\r\n-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\r\n+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Default font for bg */\r\n     border-radius: 15px;\r\n-    h1{color: #FFC107;align-items: center;text-align: center;padding-top: 2%;}\r\n-    p{color: white;text-align: center; padding-top: 2%;font-weight: bolder;font-size: larger;}\r\n     height: 40vh;\r\n-}\n+  }\r\n+  \r\n+  .bg h1 {\r\n+    color: #FFC107;\r\n+    text-align: center;\r\n+    padding-top: 2%;\r\n+  }\r\n+  \r\n+  .bg p {\r\n+    color: white;\r\n+    text-align: center;\r\n+    padding-top: 2%;\r\n+    font-weight: bolder;\r\n+    font-size: larger;\r\n+  }\r\n+  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1723097671759,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,41 +1,18 @@\n-/* Global styles for fonts (in your globals.css or a relevant stylesheet) */\r\n-body {\r\n-    font-family: 'Oswald', sans-serif; /* Apply Oswald font to the whole document */\r\n-  }\r\n-  \r\n-  h1 {\r\n-    font-family: 'Aclonica', sans-serif; /* Apply Aclonica font to all h1 elements */\r\n-  }\r\n-  \r\n-  .container {\r\n+.container{\r\n     background: #2F87ED;\r\n-  }\r\n-  \r\n-  .bg {\r\n+}\r\n+.bg{\r\n     background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);\r\n     margin: 0 auto;\r\n     margin-top: 20px;\r\n     width: 90%;\r\n     align-items: center;\r\n     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;\r\n     align-content: center;\r\n     border: 6px solid black;\r\n-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Default font for bg */\r\n+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\r\n     border-radius: 15px;\r\n+    h1{color: #FFC107;align-items: center;text-align: center;padding-top: 2%;}\r\n+    p{color: white;text-align: center; padding-top: 2%;font-weight: bolder;font-size: larger;}\r\n     height: 40vh;\r\n-  }\r\n-  \r\n-  .bg h1 {\r\n-    color: #FFC107;\r\n-    text-align: center;\r\n-    padding-top: 2%;\r\n-  }\r\n-  \r\n-  .bg p {\r\n-    color: white;\r\n\\ No newline at end of file\n-    text-align: center;\r\n-    padding-top: 2%;\r\n-    font-weight: bolder;\r\n-    font-size: larger;\r\n-  }\r\n-  \n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1723099400855,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,7 +12,7 @@\n     border: 6px solid black;\r\n     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\r\n     border-radius: 15px;\r\n     h1{color: #FFC107;align-items: center;text-align: center;padding-top: 2%;}\r\n-    p{color: white;text-align: center; padding-top: 2%;font-weight: bolder;font-size: larger;}\r\n+    p{color: white;text-align: center; padding-top: 0%;font-weight: bolder;font-size: larger;}\r\n     height: 40vh;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1723099799349,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,5 +14,9 @@\n     border-radius: 15px;\r\n     h1{color: #FFC107;align-items: center;text-align: center;padding-top: 2%;}\r\n     p{color: white;text-align: center; padding-top: 0%;font-weight: bolder;font-size: larger;}\r\n     height: 40vh;\r\n+}\r\n+.card{\r\n+    display: flex;\r\n+    flex-direction: column;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1723099897848,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,22 +1,36 @@\n-.container{\r\n-    background: #2F87ED;\r\n+.container {\r\n+  background: #2f87ed;\r\n }\r\n-.bg{\r\n-    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);\r\n-    margin: 0 auto;\r\n-    margin-top: 20px;\r\n-    width: 90%;\r\n+.bg {\r\n+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);\r\n+  margin: 0 auto;\r\n+  margin-top: 20px;\r\n+  width: 90%;\r\n+  align-items: center;\r\n+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;\r\n+  align-content: center;\r\n+  border: 6px solid black;\r\n+  font-family: \"Segoe UI\", Tahoma, Geneva, Verdana, sans-serif;\r\n+  border-radius: 15px;\r\n+  h1 {\r\n\\ No newline at end of file\n+    color: #ffc107;\r\n     align-items: center;\r\n-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;\r\n-    align-content: center;\r\n-    border: 6px solid black;\r\n-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\r\n-    border-radius: 15px;\r\n-    h1{color: #FFC107;align-items: center;text-align: center;padding-top: 2%;}\r\n-    p{color: white;text-align: center; padding-top: 0%;font-weight: bolder;font-size: larger;}\r\n-    height: 40vh;\r\n+    text-align: center;\r\n+    padding-top: 2%;\r\n+  }\r\n+  p {\r\n+    color: white;\r\n+    text-align: center;\r\n+    padding-top: 0%;\r\n+    font-weight: bolder;\r\n+    font-size: larger;\r\n+  }\r\n+  height: 40vh;\r\n }\r\n-.card{\r\n-    display: flex;\r\n-    flex-direction: column;\r\n-}\n+.card {\r\n+  display: flex;\r\n+  flex-direction: column;\r\n+  h1{\r\n+    color: white;\r\n+  }\r\n+}\r\n"
+                },
+                {
+                    "date": 1723099913643,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n   height: 40vh;\r\n }\r\n .card {\r\n   display: flex;\r\n-  flex-direction: column;\r\n+//   flex-direction: column;\r\n   h1{\r\n     color: white;\r\n   }\r\n\\ No newline at end of file\n-}\n+}\r\n"
+                },
+                {
+                    "date": 1723099925567,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,10 @@\n   height: 40vh;\r\n }\r\n .card {\r\n   display: flex;\r\n-//   flex-direction: column;\r\n+  flex-direction: column;\r\n   h1{\r\n     color: white;\r\n+    padding: 0%;\r\n\\ No newline at end of file\n   }\r\n-}\n+}\r\n"
+                },
+                {
+                    "date": 1723099935918,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,10 @@\n }\r\n .card {\r\n   display: flex;\r\n   flex-direction: column;\r\n+  width: 20%;\r\n   h1{\r\n     color: white;\r\n     padding: 0%;\r\n   }\r\n\\ No newline at end of file\n-}\n+}\r\n"
+                },
+                {
+                    "date": 1723099965909,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,15 +24,15 @@\n     padding-top: 0%;\r\n     font-weight: bolder;\r\n     font-size: larger;\r\n   }\r\n-  height: 40vh;\r\n+  height: auto;\r\n }\r\n .card {\r\n   display: flex;\r\n   flex-direction: column;\r\n   width: 20%;\r\n-  h1{\r\n+  h1 {\r\n     color: white;\r\n     padding: 0%;\r\n\\ No newline at end of file\n   }\r\n-}\n+}\r\n"
+                },
+                {
+                    "date": 1723100090766,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,13 @@\n .card {\r\n   display: flex;\r\n   flex-direction: column;\r\n   width: 20%;\r\n+  img{\r\n+    align-items: center;\r\n+    align-content: center;\r\n+  }\r\n   h1 {\r\n\\ No newline at end of file\n     color: white;\r\n     padding: 0%;\r\n   }\r\n-}\n+}\r\n"
+                },
+                {
+                    "date": 1723100099332,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,10 +33,11 @@\n   width: 20%;\r\n   img{\r\n     align-items: center;\r\n     align-content: center;\r\n+    margin: 0 auto;\r\n   }\r\n   h1 {\r\n     color: white;\r\n     padding: 0%;\r\n   }\r\n\\ No newline at end of file\n-}\n+}\r\n"
+                },
+                {
+                    "date": 1723100236984,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,6 +38,7 @@\n   }\r\n   h1 {\r\n     color: white;\r\n     padding: 0%;\r\n+    margin: 0;\r\n   }\r\n\\ No newline at end of file\n-}\n+}\r\n"
+                },
+                {
+                    "date": 1723100436085,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,15 +30,16 @@\n .card {\r\n   display: flex;\r\n   flex-direction: column;\r\n   width: 20%;\r\n+  border: 1px solid black;\r\n   img{\r\n     align-items: center;\r\n     align-content: center;\r\n     margin: 0 auto;\r\n   }\r\n   h1 {\r\n     color: white;\r\n     padding: 0%;\r\n-    margin: 0;\r\n+    margin: 0px;\r\n\\ No newline at end of file\n   }\r\n-}\n+}\r\n"
+                },
+                {
+                    "date": 1723100446718,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n .card {\r\n   display: flex;\r\n   flex-direction: column;\r\n   width: 20%;\r\n-  border: 1px solid black;\r\n+  border: 2px solid black;\r\n   img{\r\n     align-items: center;\r\n     align-content: center;\r\n     margin: 0 auto;\r\n@@ -41,5 +41,5 @@\n     color: white;\r\n     padding: 0%;\r\n     margin: 0px;\r\n   }\r\n-}\n\\ No newline at end of file\n+}\r\n"
+                },
+                {
+                    "date": 1723100452626,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n .card {\r\n   display: flex;\r\n   flex-direction: column;\r\n   width: 20%;\r\n-  border: 2px solid black;\r\n+  border: 4px solid black;\r\n   img{\r\n     align-items: center;\r\n     align-content: center;\r\n     margin: 0 auto;\r\n"
+                },
+                {
+                    "date": 1723100460160,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n .card {\r\n   display: flex;\r\n   flex-direction: column;\r\n   width: 20%;\r\n-  border: 4px solid black;\r\n+  border: 6px solid black;\r\n   img{\r\n     align-items: center;\r\n     align-content: center;\r\n     margin: 0 auto;\r\n"
+                },
+                {
+                    "date": 1723100466950,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n .card {\r\n   display: flex;\r\n   flex-direction: column;\r\n   width: 20%;\r\n-  border: 6px solid black;\r\n+  border: 4px solid black;\r\n   img{\r\n     align-items: center;\r\n     align-content: center;\r\n     margin: 0 auto;\r\n"
+                },
+                {
+                    "date": 1723100475124,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,8 +30,9 @@\n .card {\r\n   display: flex;\r\n   flex-direction: column;\r\n   width: 20%;\r\n+  height: 10vh;\r\n   border: 4px solid black;\r\n   img{\r\n     align-items: center;\r\n     align-content: center;\r\n"
+                },
+                {
+                    "date": 1723100490941,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,17 +30,17 @@\n .card {\r\n   display: flex;\r\n   flex-direction: column;\r\n   width: 20%;\r\n-  height: 10vh;\r\n+  height: 50vh;\r\n   border: 4px solid black;\r\n   img{\r\n     align-items: center;\r\n     align-content: center;\r\n     margin: 0 auto;\r\n   }\r\n   h1 {\r\n     color: white;\r\n-    padding: 0%;\r\n+    padding-top: 3%;\r\n     margin: 0px;\r\n   }\r\n }\r\n"
+                },
+                {
+                    "date": 1723100541688,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,15 +32,16 @@\n   flex-direction: column;\r\n   width: 20%;\r\n   height: 50vh;\r\n   border: 4px solid black;\r\n+  padding-left: 2%;\r\n   img{\r\n     align-items: center;\r\n     align-content: center;\r\n     margin: 0 auto;\r\n   }\r\n   h1 {\r\n     color: white;\r\n-    padding-top: 3%;\r\n+    padding-top: 8%;\r\n     margin: 0px;\r\n   }\r\n }\r\n"
+                },
+                {
+                    "date": 1723100552259,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,10 @@\n   flex-direction: column;\r\n   width: 20%;\r\n   height: 50vh;\r\n   border: 4px solid black;\r\n-  padding-left: 2%;\r\n+//   padding-left: ;\r\n+margin-left: 2%;\r\n   img{\r\n     align-items: center;\r\n     align-content: center;\r\n     margin: 0 auto;\r\n"
+                },
+                {
+                    "date": 1723100563900,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,8 +34,9 @@\n   height: 50vh;\r\n   border: 4px solid black;\r\n //   padding-left: ;\r\n margin-left: 2%;\r\n+margin-bottom: 2%;\r\n   img{\r\n     align-items: center;\r\n     align-content: center;\r\n     margin: 0 auto;\r\n"
+                },
+                {
+                    "date": 1723101003417,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,8 +35,11 @@\n   border: 4px solid black;\r\n //   padding-left: ;\r\n margin-left: 2%;\r\n margin-bottom: 2%;\r\n+@media screen and (max-width:768px) {\r\n+    width: 100%;\r\n+}\r\n   img{\r\n     align-items: center;\r\n     align-content: center;\r\n     margin: 0 auto;\r\n"
+                },
+                {
+                    "date": 1723101016457,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,8 +36,9 @@\n //   padding-left: ;\r\n margin-left: 2%;\r\n margin-bottom: 2%;\r\n @media screen and (max-width:768px) {\r\n+    margin-left: 0%;\r\n     width: 100%;\r\n }\r\n   img{\r\n     align-items: center;\r\n"
+                },
+                {
+                    "date": 1723101089881,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,8 +46,9 @@\n     margin: 0 auto;\r\n   }\r\n   h1 {\r\n     color: white;\r\n+    position: relative;\r\n     padding-top: 8%;\r\n     margin: 0px;\r\n   }\r\n }\r\n"
+                },
+                {
+                    "date": 1723101101072,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,8 +35,9 @@\n   border: 4px solid black;\r\n //   padding-left: ;\r\n margin-left: 2%;\r\n margin-bottom: 2%;\r\n+position: absolute;\r\n @media screen and (max-width:768px) {\r\n     margin-left: 0%;\r\n     width: 100%;\r\n }\r\n"
+                },
+                {
+                    "date": 1723101110088,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,9 @@\n   border: 4px solid black;\r\n //   padding-left: ;\r\n margin-left: 2%;\r\n margin-bottom: 2%;\r\n-position: absolute;\r\n+position: relative;\r\n @media screen and (max-width:768px) {\r\n     margin-left: 0%;\r\n     width: 100%;\r\n }\r\n"
+                },
+                {
+                    "date": 1723101116107,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,9 +47,9 @@\n     margin: 0 auto;\r\n   }\r\n   h1 {\r\n     color: white;\r\n-    position: relative;\r\n+    position: absolute;\r\n     padding-top: 8%;\r\n     margin: 0px;\r\n   }\r\n }\r\n"
+                },
+                {
+                    "date": 1723101121379,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,9 +47,9 @@\n     margin: 0 auto;\r\n   }\r\n   h1 {\r\n     color: white;\r\n-    position: absolute;\r\n+    position: relative;\r\n     padding-top: 8%;\r\n     margin: 0px;\r\n   }\r\n }\r\n"
+                },
+                {
+                    "date": 1723101129475,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,9 @@\n   border: 4px solid black;\r\n //   padding-left: ;\r\n margin-left: 2%;\r\n margin-bottom: 2%;\r\n-position: relative;\r\n+position: absolute;\r\n @media screen and (max-width:768px) {\r\n     margin-left: 0%;\r\n     width: 100%;\r\n }\r\n"
+                },
+                {
+                    "date": 1723101138523,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n     padding-top: 0%;\r\n     font-weight: bolder;\r\n     font-size: larger;\r\n   }\r\n-  height: auto;\r\n+  height: 40vh;\r\n }\r\n .card {\r\n   display: flex;\r\n   flex-direction: column;\r\n"
+                },
+                {
+                    "date": 1723101145161,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n     padding-top: 0%;\r\n     font-weight: bolder;\r\n     font-size: larger;\r\n   }\r\n-  height: 40vh;\r\n+  height: 400vh;\r\n }\r\n .card {\r\n   display: flex;\r\n   flex-direction: column;\r\n"
+                },
+                {
+                    "date": 1723101152192,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n     padding-top: 0%;\r\n     font-weight: bolder;\r\n     font-size: larger;\r\n   }\r\n-  height: 400vh;\r\n+  height: auto;\r\n }\r\n .card {\r\n   display: flex;\r\n   flex-direction: column;\r\n"
+                },
+                {
+                    "date": 1723101164712,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,8 @@\n   border: 4px solid black;\r\n //   padding-left: ;\r\n margin-left: 2%;\r\n margin-bottom: 2%;\r\n-position: absolute;\r\n @media screen and (max-width:768px) {\r\n     margin-left: 0%;\r\n     width: 100%;\r\n }\r\n"
+                },
+                {
+                    "date": 1723101244268,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,12 +43,13 @@\n   img{\r\n     align-items: center;\r\n     align-content: center;\r\n     margin: 0 auto;\r\n+    position: absolute;\r\n   }\r\n   h1 {\r\n     color: white;\r\n     position: relative;\r\n-    padding-top: 8%;\r\n+    padding-top: 0%;\r\n     margin: 0px;\r\n   }\r\n }\r\n"
+                },
+                {
+                    "date": 1723101252425,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,8 +43,9 @@\n   img{\r\n     align-items: center;\r\n     align-content: center;\r\n     margin: 0 auto;\r\n+    height: auto;\r\n     position: absolute;\r\n   }\r\n   h1 {\r\n     color: white;\r\n"
+                },
+                {
+                    "date": 1723101259058,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,8 +44,9 @@\n     align-items: center;\r\n     align-content: center;\r\n     margin: 0 auto;\r\n     height: auto;\r\n+    width: 100%;\r\n     position: absolute;\r\n   }\r\n   h1 {\r\n     color: white;\r\n"
+                },
+                {
+                    "date": 1723101267262,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,8 @@\n     align-items: center;\r\n     align-content: center;\r\n     margin: 0 auto;\r\n     height: auto;\r\n-    width: 100%;\r\n     position: absolute;\r\n   }\r\n   h1 {\r\n     color: white;\r\n"
+                },
+                {
+                    "date": 1723101302233,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n   img{\r\n     align-items: center;\r\n     align-content: center;\r\n     margin: 0 auto;\r\n-    height: auto;\r\n+    height: auto;width: auto;\r\n     position: absolute;\r\n   }\r\n   h1 {\r\n     color: white;\r\n"
+                },
+                {
+                    "date": 1723101331491,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n   img{\r\n     align-items: center;\r\n     align-content: center;\r\n     margin: 0 auto;\r\n-    height: auto;width: auto;\r\n+    // height: auto;width: auto;\r\n     position: absolute;\r\n   }\r\n   h1 {\r\n     color: white;\r\n"
+                },
+                {
+                    "date": 1723101362574,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n   display: flex;\r\n   flex-direction: column;\r\n   width: 20%;\r\n   height: 50vh;\r\n-  border: 4px solid black;\r\n+//   border: 4px solid black;\r\n //   padding-left: ;\r\n margin-left: 2%;\r\n margin-bottom: 2%;\r\n @media screen and (max-width:768px) {\r\n"
+                },
+                {
+                    "date": 1723101371002,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,11 +29,11 @@\n }\r\n .card {\r\n   display: flex;\r\n   flex-direction: column;\r\n-  width: 20%;\r\n+  width: 30%;\r\n   height: 50vh;\r\n-//   border: 4px solid black;\r\n+  border: 4px solid black;\r\n //   padding-left: ;\r\n margin-left: 2%;\r\n margin-bottom: 2%;\r\n @media screen and (max-width:768px) {\r\n"
+                },
+                {
+                    "date": 1723101377389,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n }\r\n .card {\r\n   display: flex;\r\n   flex-direction: column;\r\n-  width: 30%;\r\n+  width: 26%;\r\n   height: 50vh;\r\n   border: 4px solid black;\r\n //   padding-left: ;\r\n margin-left: 2%;\r\n"
+                },
+                {
+                    "date": 1723101384808,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n }\r\n .card {\r\n   display: flex;\r\n   flex-direction: column;\r\n-  width: 26%;\r\n+  width: 26.5%;\r\n   height: 50vh;\r\n   border: 4px solid black;\r\n //   padding-left: ;\r\n margin-left: 2%;\r\n"
+                },
+                {
+                    "date": 1723101402843,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,7 +50,8 @@\n   h1 {\r\n     color: white;\r\n     position: relative;\r\n     padding-top: 0%;\r\n-    margin: 0px;\r\n+    // margin: 0px;\r\n+    top:80%;\r\n   }\r\n }\r\n"
+                },
+                {
+                    "date": 1723101415595,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n   display: flex;\r\n   flex-direction: column;\r\n   width: 26.5%;\r\n   height: 50vh;\r\n-  border: 4px solid black;\r\n+//   border: 4px solid black;\r\n //   padding-left: ;\r\n margin-left: 2%;\r\n margin-bottom: 2%;\r\n @media screen and (max-width:768px) {\r\n"
+                },
+                {
+                    "date": 1723101468432,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,8 +11,9 @@\n   align-content: center;\r\n   border: 6px solid black;\r\n   font-family: \"Segoe UI\", Tahoma, Geneva, Verdana, sans-serif;\r\n   border-radius: 15px;\r\n+  display: flex;\r\n   h1 {\r\n     color: #ffc107;\r\n     align-items: center;\r\n     text-align: center;\r\n"
+                },
+                {
+                    "date": 1723101532729,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,10 @@\n .container {\r\n   background: #2f87ed;\r\n }\r\n+.flex{\r\n+    display: flex;\r\n+}\r\n .bg {\r\n   background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);\r\n   margin: 0 auto;\r\n   margin-top: 20px;\r\n@@ -11,9 +14,8 @@\n   align-content: center;\r\n   border: 6px solid black;\r\n   font-family: \"Segoe UI\", Tahoma, Geneva, Verdana, sans-serif;\r\n   border-radius: 15px;\r\n-  display: flex;\r\n   h1 {\r\n     color: #ffc107;\r\n     align-items: center;\r\n     text-align: center;\r\n"
+                },
+                {
+                    "date": 1723101578519,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n .container {\r\n   background: #2f87ed;\r\n }\r\n-.flex{\r\n+.cardContainer{\r\n     display: flex;\r\n }\r\n .bg {\r\n   background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);\r\n"
+                },
+                {
+                    "date": 1723101671015,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,9 @@\n }\r\n .card {\r\n   display: flex;\r\n   flex-direction: column;\r\n-  width: 26.5%;\r\n+  width: 24%;\r\n   height: 50vh;\r\n //   border: 4px solid black;\r\n //   padding-left: ;\r\n margin-left: 2%;\r\n"
+                },
+                {
+                    "date": 1723101682721,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,7 +54,7 @@\n     color: white;\r\n     position: relative;\r\n     padding-top: 0%;\r\n     // margin: 0px;\r\n-    top:80%;\r\n+    top:70%;\r\n   }\r\n }\r\n"
+                },
+                {
+                    "date": 1723101723584,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n   background: #2f87ed;\r\n }\r\n .cardContainer{\r\n     display: flex;\r\n+    gap: 20px;\r\n }\r\n .bg {\r\n   background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);\r\n   margin: 0 auto;\r\n"
+                },
+                {
+                    "date": 1723101728814,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n   background: #2f87ed;\r\n }\r\n .cardContainer{\r\n     display: flex;\r\n-    gap: 20px;\r\n+    gap: 10px;\r\n }\r\n .bg {\r\n   background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);\r\n   margin: 0 auto;\r\n"
+                },
+                {
+                    "date": 1723101803210,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n   background: #2f87ed;\r\n }\r\n .cardContainer{\r\n     display: flex;\r\n-    gap: 10px;\r\n+    gap: 5px;\r\n }\r\n .bg {\r\n   background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);\r\n   margin: 0 auto;\r\n"
+                },
+                {
+                    "date": 1723101810329,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n   background: #2f87ed;\r\n }\r\n .cardContainer{\r\n     display: flex;\r\n-    gap: 5px;\r\n+    gap: 2%;\r\n }\r\n .bg {\r\n   background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);\r\n   margin: 0 auto;\r\n"
+                },
+                {
+                    "date": 1723101866966,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n   background: #2f87ed;\r\n }\r\n .cardContainer{\r\n     display: flex;\r\n-    gap: 2%;\r\n+    gap: 1%;\r\n }\r\n .bg {\r\n   background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);\r\n   margin: 0 auto;\r\n"
+                },
+                {
+                    "date": 1723101877744,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n   background: #2f87ed;\r\n }\r\n .cardContainer{\r\n     display: flex;\r\n-    gap: 1%;\r\n+    gap: 0%;\r\n }\r\n .bg {\r\n   background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);\r\n   margin: 0 auto;\r\n@@ -37,9 +37,9 @@\n   width: 24%;\r\n   height: 50vh;\r\n //   border: 4px solid black;\r\n //   padding-left: ;\r\n-margin-left: 2%;\r\n+margin-left: 1%;\r\n margin-bottom: 2%;\r\n @media screen and (max-width:768px) {\r\n     margin-left: 0%;\r\n     width: 100%;\r\n"
+                },
+                {
+                    "date": 1723101922406,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n   width: 24%;\r\n   height: 50vh;\r\n //   border: 4px solid black;\r\n //   padding-left: ;\r\n-margin-left: 1%;\r\n+margin-left: 1.2%;\r\n margin-bottom: 2%;\r\n @media screen and (max-width:768px) {\r\n     margin-left: 0%;\r\n     width: 100%;\r\n@@ -54,8 +54,9 @@\n   h1 {\r\n     color: white;\r\n     position: relative;\r\n     padding-top: 0%;\r\n+    font-size: 1rem;\r\n     // margin: 0px;\r\n     top:70%;\r\n   }\r\n }\r\n"
+                },
+                {
+                    "date": 1723101942210,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,9 +54,9 @@\n   h1 {\r\n     color: white;\r\n     position: relative;\r\n     padding-top: 0%;\r\n-    font-size: 1rem;\r\n+    font-size: 10px;\r\n     // margin: 0px;\r\n     top:70%;\r\n   }\r\n }\r\n"
+                },
+                {
+                    "date": 1723101954509,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,9 +54,9 @@\n   h1 {\r\n     color: white;\r\n     position: relative;\r\n     padding-top: 0%;\r\n-    font-size: 10px;\r\n+    font-size: 27px;\r\n     // margin: 0px;\r\n     top:70%;\r\n   }\r\n }\r\n"
+                },
+                {
+                    "date": 1723101977634,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,6 +57,9 @@\n     padding-top: 0%;\r\n     font-size: 27px;\r\n     // margin: 0px;\r\n     top:70%;\r\n+    @media screen and (max-width:768px) {\r\n+        font-size: 10px;\r\n+    }\r\n   }\r\n }\r\n"
+                },
+                {
+                    "date": 1723102008427,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,11 @@\n }\r\n .cardContainer{\r\n     display: flex;\r\n     gap: 0%;\r\n+    @media screen and (max-width:768px) {\r\n+      flex-direction: column;\r\n+    }\r\n }\r\n .bg {\r\n   background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);\r\n   margin: 0 auto;\r\n"
+                },
+                {
+                    "date": 1723102082531,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,8 +51,9 @@\n     align-items: center;\r\n     align-content: center;\r\n     margin: 0 auto;\r\n     // height: auto;width: auto;\r\n+    width: 100%;\r\n     position: absolute;\r\n   }\r\n   h1 {\r\n     color: white;\r\n"
+                },
+                {
+                    "date": 1723102165124,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,8 +53,12 @@\n     margin: 0 auto;\r\n     // height: auto;width: auto;\r\n     width: 100%;\r\n     position: absolute;\r\n+    @media screen and (max-width:768px) {\r\n+        margin-left: 0%;\r\n+        width: 100%;\r\n+    }\r\n   }\r\n   h1 {\r\n     color: white;\r\n     position: relative;\r\n"
+                },
+                {
+                    "date": 1723102175385,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,8 +56,9 @@\n     position: absolute;\r\n     @media screen and (max-width:768px) {\r\n         margin-left: 0%;\r\n         width: 100%;\r\n+        position: relative;\r\n     }\r\n   }\r\n   h1 {\r\n     color: white;\r\n"
+                },
+                {
+                    "date": 1723102205878,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,7 +68,8 @@\n     // margin: 0px;\r\n     top:70%;\r\n     @media screen and (max-width:768px) {\r\n         font-size: 10px;\r\n+        color: white;\r\n     }\r\n   }\r\n }\r\n"
+                },
+                {
+                    "date": 1723102260032,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,9 @@\n     position: absolute;\r\n     @media screen and (max-width:768px) {\r\n         margin-left: 0%;\r\n         width: 100%;\r\n-        position: relative;\r\n+        // position: relative;\r\n     }\r\n   }\r\n   h1 {\r\n     color: white;\r\n"
+                },
+                {
+                    "date": 1723102288692,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,8 +39,9 @@\n   flex-direction: column;\r\n   width: 24%;\r\n   height: 50vh;\r\n //   border: 4px solid black;\r\n+position: relative;\r\n //   padding-left: ;\r\n margin-left: 1.2%;\r\n margin-bottom: 2%;\r\n @media screen and (max-width:768px) {\r\n@@ -56,9 +57,9 @@\n     position: absolute;\r\n     @media screen and (max-width:768px) {\r\n         margin-left: 0%;\r\n         width: 100%;\r\n-        // position: relative;\r\n+        position: relative;\r\n     }\r\n   }\r\n   h1 {\r\n     color: white;\r\n"
+                },
+                {
+                    "date": 1723102305229,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,9 +57,9 @@\n     position: absolute;\r\n     @media screen and (max-width:768px) {\r\n         margin-left: 0%;\r\n         width: 100%;\r\n-        position: relative;\r\n+        // position: relative;\r\n     }\r\n   }\r\n   h1 {\r\n     color: white;\r\n"
+                },
+                {
+                    "date": 1723102339251,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,9 +68,9 @@\n     font-size: 27px;\r\n     // margin: 0px;\r\n     top:70%;\r\n     @media screen and (max-width:768px) {\r\n-        font-size: 10px;\r\n+        font-size: 34px;\r\n         color: white;\r\n     }\r\n   }\r\n }\r\n"
+                },
+                {
+                    "date": 1723102353891,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -69,8 +69,9 @@\n     // margin: 0px;\r\n     top:70%;\r\n     @media screen and (max-width:768px) {\r\n         font-size: 34px;\r\n+        top:60%;\r\n         color: white;\r\n     }\r\n   }\r\n }\r\n"
+                },
+                {
+                    "date": 1723105150050,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,13 +1,13 @@\n .container {\r\n   background: #2f87ed;\r\n }\r\n-.cardContainer{\r\n-    display: flex;\r\n-    gap: 0%;\r\n-    @media screen and (max-width:768px) {\r\n-      flex-direction: column;\r\n-    }\r\n+.cardContainer {\r\n+  display: flex;\r\n+  gap: 0%;\r\n+  @media screen and (max-width: 768px) {\r\n+    flex-direction: column;\r\n+  }\r\n }\r\n .bg {\r\n   background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);\r\n   margin: 0 auto;\r\n@@ -38,40 +38,41 @@\n   display: flex;\r\n   flex-direction: column;\r\n   width: 24%;\r\n   height: 50vh;\r\n-//   border: 4px solid black;\r\n-position: relative;\r\n-//   padding-left: ;\r\n-margin-left: 1.2%;\r\n-margin-bottom: 2%;\r\n-@media screen and (max-width:768px) {\r\n+  //   border: 4px solid black;\r\n+  position: relative;\r\n+  //   padding-left: ;\r\n+  margin-left: 1.2%;\r\n+  margin-bottom: 2%;\r\n+  @media screen and (max-width: 768px) {\r\n     margin-left: 0%;\r\n+    height: 43vh;\r\n     width: 100%;\r\n-}\r\n-  img{\r\n+  }\r\n+  img {\r\n     align-items: center;\r\n     align-content: center;\r\n     margin: 0 auto;\r\n     // height: auto;width: auto;\r\n     width: 100%;\r\n     position: absolute;\r\n-    @media screen and (max-width:768px) {\r\n-        margin-left: 0%;\r\n-        width: 100%;\r\n-        // position: relative;\r\n+    @media screen and (max-width: 768px) {\r\n+      margin-left: 0%;\r\n+      width: 100%;\r\n+      // position: relative;\r\n     }\r\n   }\r\n   h1 {\r\n     color: white;\r\n     position: relative;\r\n     padding-top: 0%;\r\n     font-size: 27px;\r\n     // margin: 0px;\r\n-    top:70%;\r\n-    @media screen and (max-width:768px) {\r\n-        font-size: 34px;\r\n-        top:60%;\r\n-        color: white;\r\n+    top: 70%;\r\n+    @media screen and (max-width: 768px) {\r\n+      font-size: 34px;\r\n+      top: 60%;\r\n+      color: white;\r\n     }\r\n   }\r\n }\r\n"
+                },
+                {
+                    "date": 1723105514045,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n   height: 50vh;\r\n   //   border: 4px solid black;\r\n   position: relative;\r\n   //   padding-left: ;\r\n-  margin-left: 1.2%;\r\n+  margin-left: 1%;\r\n   margin-bottom: 2%;\r\n   @media screen and (max-width: 768px) {\r\n     margin-left: 0%;\r\n     height: 43vh;\r\n"
+                },
+                {
+                    "date": 1723105522296,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n   height: 50vh;\r\n   //   border: 4px solid black;\r\n   position: relative;\r\n   //   padding-left: ;\r\n-  margin-left: 1%;\r\n+  margin-left: 0.8%;\r\n   margin-bottom: 2%;\r\n   @media screen and (max-width: 768px) {\r\n     margin-left: 0%;\r\n     height: 43vh;\r\n"
+                },
+                {
+                    "date": 1723110277965,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n .container {\r\n   background: #2f87ed;\r\n+  padding-top: 2%;\r\n }\r\n .cardContainer {\r\n   display: flex;\r\n   gap: 0%;\r\n"
+                },
+                {
+                    "date": 1723110287997,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .container {\r\n   background: #2f87ed;\r\n-  padding-top: 2%;\r\n+  padding-top: 1%;\r\n }\r\n .cardContainer {\r\n   display: flex;\r\n   gap: 0%;\r\n"
+                },
+                {
+                    "date": 1723110540902,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,8 +24,9 @@\n     color: #ffc107;\r\n     align-items: center;\r\n     text-align: center;\r\n     padding-top: 2%;\r\n+\r\n   }\r\n   p {\r\n     color: white;\r\n     text-align: center;\r\n"
+                },
+                {
+                    "date": 1723114953471,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n     flex-direction: column;\r\n   }\r\n }\r\n .bg {\r\n-  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);\r\n+  // background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);\r\n   margin: 0 auto;\r\n   margin-top: 20px;\r\n   width: 90%;\r\n   align-items: center;\r\n"
+                },
+                {
+                    "date": 1723114967209,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n     flex-direction: column;\r\n   }\r\n }\r\n .bg {\r\n-  // background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);\r\n+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);\r\n   margin: 0 auto;\r\n   margin-top: 20px;\r\n   width: 90%;\r\n   align-items: center;\r\n"
+                },
+                {
+                    "date": 1723116167064,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n .container {\r\n   background: #2f87ed;\r\n   padding-top: 1%;\r\n+  width: 100%;\r\n }\r\n .cardContainer {\r\n   display: flex;\r\n   gap: 0%;\r\n"
+                }
+            ],
+            "date": 1723094639788,
+            "name": "Commit-0",
+            "content": ".bg{\r\n    \r\n}"
+        }
+    ]
+}

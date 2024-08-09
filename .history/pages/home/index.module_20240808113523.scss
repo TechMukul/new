@@ -1,0 +1,17 @@
+.container{
+    background: #2F87ED;
+}
+.bg{
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 90%;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    align-content: center;
+    border: 6px solid black;
+    border-radius: 15px;
+    h1{color: #FFC107;align-items: center;text-align: center;padding-top: 2%;}
+    p{color: white;text-align: center; padding-top: 2%;font-weight: bolder;font-size: larger;}
+    height: 40vh;
+}

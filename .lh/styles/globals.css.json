@@ -1,0 +1,22 @@
+{
+    "sourceFile": "styles/globals.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1723097694923,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1723109974967,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,9 @@\n+*{\r\n+  margin: 0%;\r\n+  padding: 0%;\r\n+}\r\n+\r\n body {\r\n   font-family: 'Oswald', sans-serif; /* Apply Oswald font to the whole document */\r\n }\r\n \r\n"
+                }
+            ],
+            "date": 1723097694923,
+            "name": "Commit-0",
+            "content": "body {\r\n  font-family: 'Oswald', sans-serif; /* Apply Oswald font to the whole document */\r\n}\r\n\r\nh1 {\r\n  font-family: 'Aclonica', sans-serif; /* Apply Aclonica font to all h1 elements */\r\n}\r\n"
+        }
+    ]
+}

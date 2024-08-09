@@ -1,0 +1,41 @@
+/* Global styles for fonts (in your globals.css or a relevant stylesheet) */
+body {
+    font-family: 'Oswald', sans-serif; /* Apply Oswald font to the whole document */
+  }
+  
+  h1 {
+    font-family: 'Aclonica', sans-serif; /* Apply Aclonica font to all h1 elements */
+  }
+  
+  .container {
+    background: #2F87ED;
+  }
+  
+  .bg {
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 90%;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    align-content: center;
+    border: 6px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Default font for bg */
+    border-radius: 15px;
+    height: 40vh;
+  }
+  
+  .bg h1 {
+    color: #FFC107;
+    text-align: center;
+    padding-top: 2%;
+  }
+  
+  .bg p {
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+    font-weight: bolder;
+    font-size: larger;
+  }
+  

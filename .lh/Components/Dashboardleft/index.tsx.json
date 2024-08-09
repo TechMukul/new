@@ -1,0 +1,22 @@
+{
+    "sourceFile": "Components/Dashboardleft/index.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1723093456054,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1723098749825,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,11 +13,9 @@\n   const [route, setRoute] = useState([]);\r\n   return (\r\n     <div className={styles.sidebar}>\r\n       {/* <h1>Welcome </h1> */}\r\n-      <div className={styles.topSection}>\r\n-        <h2>Dashboard</h2>\r\n-      </div>\r\n+      \r\n       <ul className={styles.menu}>\r\n         <li>\r\n           <FontAwesomeIcon icon={faHome} />\r\n           {/* <Link href={\"/Home\"}> */}\r\n"
+                }
+            ],
+            "date": 1723093456054,
+            "name": "Commit-0",
+            "content": "import React, { useState } from \"react\";\r\nimport { FontAwesomeIcon } from \"@fortawesome/react-fontawesome\";\r\nimport {\r\n  faUserPlus,\r\n  faUserMinus,\r\n  faCog,\r\n  faHome,\r\n} from \"@fortawesome/free-solid-svg-icons\";\r\nimport styles from \"./index.module.scss\";\r\nimport Link from \"next/link\";\r\n\r\nconst Dashboard = () => {\r\n  const [route, setRoute] = useState([]);\r\n  return (\r\n    <div className={styles.sidebar}>\r\n      {/* <h1>Welcome </h1> */}\r\n      <div className={styles.topSection}>\r\n        <h2>Dashboard</h2>\r\n      </div>\r\n      <ul className={styles.menu}>\r\n        <li>\r\n          <FontAwesomeIcon icon={faHome} />\r\n          {/* <Link href={\"/Home\"}> */}\r\n          Home\r\n          {/* </Link> */}\r\n        </li>\r\n        {/* <li>\r\n          <FontAwesomeIcon icon={faUserPlus} />{\" \"}\r\n          <Link\r\n            // style={}\r\n            href={\"/Adduser\"}\r\n            className={styles.hover}\r\n          >\r\n            Add User{\" \"}\r\n          </Link>\r\n        </li> */}\r\n        <li>\r\n          <FontAwesomeIcon icon={faUserMinus} />{\" \"}\r\n          <Link\r\n            // style={{ color: \"white\", textDecoration: \"none\" }}\r\n            className={styles.hover}\r\n            href={\"/Tree\"}\r\n          >\r\n            All User{\" \"}\r\n          </Link>\r\n        </li>\r\n        <li>\r\n          <FontAwesomeIcon icon={faCog} />{\" \"}\r\n          <Link\r\n            // style={{ color: \"white\", textDecoration: \"none\" }}\r\n            className={styles.hover}\r\n            href={\"/Graphs\"}\r\n          >\r\n            Graphs{\" \"}\r\n          </Link>\r\n        </li>\r\n        <li>\r\n          <FontAwesomeIcon icon={faUserPlus} />{\" \"}\r\n          <Link\r\n            // style={{ color: \"white\", textDecoration: \"none\" }}\r\n            className={styles.hover}\r\n            href={\"/Inventory\"}\r\n          >\r\n            Inventory{\" \"}\r\n          </Link>\r\n        </li>\r\n        <li>\r\n          <FontAwesomeIcon icon={faUserMinus} />{\" \"}\r\n          <Link\r\n            // style={{ color: \"white\", textDecoration: \"none\" }}\r\n            className={styles.hover}\r\n            href={\"/Skintypes\"}\r\n          >\r\n            Skintypes{\" \"}\r\n          </Link>\r\n        </li>\r\n        <li>\r\n          <FontAwesomeIcon icon={faCog} /> Item 3\r\n        </li>\r\n        <li>\r\n          <FontAwesomeIcon icon={faUserPlus} /> Item 4\r\n        </li>\r\n        <li>\r\n          <FontAwesomeIcon icon={faUserMinus} /> Item 5\r\n        </li>\r\n        <li>\r\n          <FontAwesomeIcon icon={faCog} /> Item 6\r\n        </li>\r\n      </ul>\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default Dashboard;\r\n"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+.bg {
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    margin: 0 auto;
+    margin-top: 00px;
+    width: 90%;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    align-content: center;
+    border: 6px solid black;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+    h1 {
+      color: #ffc107;
+      align-items: center;
+      text-align: center;
+      padding-top: 2%;
+    }
+    p {
+      color: white;
+      text-align: center;
+      padding-top: 0%;
+      font-weight: bolder;
+      font-size: larger;
+    }
+    height: auto;
+  }

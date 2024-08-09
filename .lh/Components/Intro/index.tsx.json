@@ -1,0 +1,34 @@
+{
+    "sourceFile": "Components/Intro/index.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 4,
+            "patches": [
+                {
+                    "date": 1723105675505,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1723105691734,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,17 +1,17 @@\n import React from 'react'\r\n-\r\n+import style from './index.module.scss'\r\n const index = () => {\r\n   return (\r\n-    <div>\r\n+\r\n               <div className={style.bg}>\r\n           <h1>SPC X ACCOUNTS</h1>\r\n           <p>\r\n             Your Virtual Marketplace for In-Game Assets: Buy, Sell, Trade\r\n             <br />\r\n             with Confidence\r\n           </p>\r\n-        </div>\r\n+\r\n     </div>\r\n   )\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1723105716187,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,12 +15,4 @@\n   )\r\n }\r\n \r\n export default index\r\n-        <div className={style.bg}>\r\n-          <h1>SPC X ACCOUNTS</h1>\r\n-          <p>\r\n-            Your Virtual Marketplace for In-Game Assets: Buy, Sell, Trade\r\n-            <br />\r\n-            with Confidence\r\n-          </p>\r\n-        </div>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1723110202432,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,18 +1,16 @@\n-import React from 'react'\r\n-import style from './index.module.scss'\r\n+import React from \"react\";\r\n+import style from \"./index.module.scss\";\r\n const index = () => {\r\n   return (\r\n-\r\n-              <div className={style.bg}>\r\n-          <h1>SPC X ACCOUNTS</h1>\r\n-          <p>\r\n-            Your Virtual Marketplace for In-Game Assets: Buy, Sell, Trade\r\n-            <br />\r\n-            with Confidence\r\n-          </p>\r\n-\r\n+    <div className={style.bg}>\r\n+      <h1>SPC X ACCOUNTS</h1>\r\n+      <p>\r\n+        Your Virtual Marketplace for In-Game Assets: Buy, Sell, Trade\r\n+        <br />\r\n+        with Confidence\r\n+      </p>\r\n     </div>\r\n-  )\r\n-}\r\n+  );\r\n+};\r\n \r\n-export default index\r\n+export default index;\r\n"
+                },
+                {
+                    "date": 1723111114887,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   return (\r\n     <div className={style.bg}>\r\n       <h1>SPC X ACCOUNTS</h1>\r\n       <p>\r\n-        Your Virtual Marketplace for In-Game Assets: Buy, Sell, Trade\r\n+      Discover the Premier Virtual Marketplace for In-Game Assets\r\n         <br />\r\n         with Confidence\r\n       </p>\r\n     </div>\r\n"
+                }
+            ],
+            "date": 1723105675505,
+            "name": "Commit-0",
+            "content": "import React from 'react'\r\n\r\nconst index = () => {\r\n  return (\r\n    <div>\r\n              <div className={style.bg}>\r\n          <h1>SPC X ACCOUNTS</h1>\r\n          <p>\r\n            Your Virtual Marketplace for In-Game Assets: Buy, Sell, Trade\r\n            <br />\r\n            with Confidence\r\n          </p>\r\n        </div>\r\n    </div>\r\n  )\r\n}\r\n\r\nexport default index\r\n        <div className={style.bg}>\r\n          <h1>SPC X ACCOUNTS</h1>\r\n          <p>\r\n            Your Virtual Marketplace for In-Game Assets: Buy, Sell, Trade\r\n            <br />\r\n            with Confidence\r\n          </p>\r\n        </div>"
+        }
+    ]
+}

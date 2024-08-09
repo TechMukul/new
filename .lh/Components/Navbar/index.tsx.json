@@ -1,0 +1,54 @@
+{
+    "sourceFile": "Components/Navbar/index.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 9,
+            "patches": [
+                {
+                    "date": 1723108443982,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1723108882331,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import React, { useState } from 'react';\r\n-import style from './index.module.css';\r\n+import style from './index.module.scss';\r\n \r\n const Navbar = () => {\r\n   const [isMenuOpen, setIsMenuOpen] = useState(false);\r\n \r\n"
+                },
+                {
+                    "date": 1723109045793,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n       <ul className={`${style.caintainer} ${isMenuOpen ? style.showMenu : ''}`}>\r\n         <li className={style.items}>\r\n           <div className={style.name}>\r\n             <p>Home</p>\r\n-            <hr className={style.line} />\r\n+            {/* <hr className={style.line} /> */}\r\n           </div>\r\n         </li>\r\n         <li className={style.items}>\r\n           <div className={style.name}>\r\n"
+                },
+                {
+                    "date": 1723110366738,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n import React, { useState } from 'react';\r\n import style from './index.module.scss';\r\n+import Link from 'next/link';\r\n \r\n const Navbar = () => {\r\n   const [isMenuOpen, setIsMenuOpen] = useState(false);\r\n \r\n@@ -18,9 +19,9 @@\n       <ul className={`${style.caintainer} ${isMenuOpen ? style.showMenu : ''}`}>\r\n         <li className={style.items}>\r\n           <div className={style.name}>\r\n             <p>Home</p>\r\n-            {/* <hr className={style.line} /> */}\r\n+            <hr className={style.line} />\r\n           </div>\r\n         </li>\r\n         <li className={style.items}>\r\n           <div className={style.name}>\r\n@@ -35,9 +36,9 @@\n           </div>\r\n         </li>\r\n         <li className={style.items}>\r\n           <div className={style.name}>\r\n-            <p>Contact</p>\r\n+            <p><Link href={\"contact\"}>Contact </Link></p>\r\n             <hr className={style.line} />\r\n           </div>\r\n         </li>\r\n         <li className={style.items}>\r\n"
+                },
+                {
+                    "date": 1723110395528,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n           </div>\r\n         </li>\r\n         <li className={style.items}>\r\n           <div className={style.name}>\r\n-            <p><Link href={\"contact\"}>Contact </Link></p>\r\n+            <p><Link className={style.name} href={\"contact\"}>Contact </Link></p>\r\n             <hr className={style.line} />\r\n           </div>\r\n         </li>\r\n         <li className={style.items}>\r\n"
+                },
+                {
+                    "date": 1723110412078,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n           </div>\r\n         </li>\r\n         <li className={style.items}>\r\n           <div className={style.name}>\r\n-            <p><Link className={style.name} href={\"contact\"}>Contact </Link></p>\r\n+            <p><Link href={\"contact\"} style={{textDecoration:\"none\"}}>Contact </Link></p>\r\n             <hr className={style.line} />\r\n           </div>\r\n         </li>\r\n         <li className={style.items}>\r\n"
+                },
+                {
+                    "date": 1723110421509,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n           </div>\r\n         </li>\r\n         <li className={style.items}>\r\n           <div className={style.name}>\r\n-            <p><Link href={\"contact\"} style={{textDecoration:\"none\"}}>Contact </Link></p>\r\n+            <p><Link href={\"contact\"} style={{textDecoration:\"none\",color:\"white\"}}>Contact </Link></p>\r\n             <hr className={style.line} />\r\n           </div>\r\n         </li>\r\n         <li className={style.items}>\r\n"
+                },
+                {
+                    "date": 1723110441283,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n       </div>\r\n       <ul className={`${style.caintainer} ${isMenuOpen ? style.showMenu : ''}`}>\r\n         <li className={style.items}>\r\n           <div className={style.name}>\r\n-            <p>Home</p>\r\n+          <p><Link href={\"home\"} style={{textDecoration:\"none\",color:\"white\"}}>Contact </Link></p>\r\n             <hr className={style.line} />\r\n           </div>\r\n         </li>\r\n         <li className={style.items}>\r\n"
+                },
+                {
+                    "date": 1723110449947,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n       </div>\r\n       <ul className={`${style.caintainer} ${isMenuOpen ? style.showMenu : ''}`}>\r\n         <li className={style.items}>\r\n           <div className={style.name}>\r\n-          <p><Link href={\"home\"} style={{textDecoration:\"none\",color:\"white\"}}>Contact </Link></p>\r\n+          <p><Link href={\"home\"} style={{textDecoration:\"none\",color:\"white\"}}>Home </Link></p>\r\n             <hr className={style.line} />\r\n           </div>\r\n         </li>\r\n         <li className={style.items}>\r\n"
+                },
+                {
+                    "date": 1723115812558,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n       </div>\r\n       <ul className={`${style.caintainer} ${isMenuOpen ? style.showMenu : ''}`}>\r\n         <li className={style.items}>\r\n           <div className={style.name}>\r\n-          <p><Link href={\"home\"} style={{textDecoration:\"none\",color:\"white\"}}>Home </Link></p>\r\n+          <p><Link href={\"/\"} style={{textDecoration:\"none\",color:\"white\"}}>Home </Link></p>\r\n             <hr className={style.line} />\r\n           </div>\r\n         </li>\r\n         <li className={style.items}>\r\n"
+                }
+            ],
+            "date": 1723108443982,
+            "name": "Commit-0",
+            "content": "import React, { useState } from 'react';\r\nimport style from './index.module.css';\r\n\r\nconst Navbar = () => {\r\n  const [isMenuOpen, setIsMenuOpen] = useState(false);\r\n\r\n  const toggleMenu = () => {\r\n    setIsMenuOpen(!isMenuOpen);\r\n  };\r\n\r\n  return (\r\n    <>\r\n      <div className={style.hamburger} onClick={toggleMenu}>\r\n        ☰\r\n      </div>\r\n      <div className={style.image}>\r\n      </div>\r\n      <ul className={`${style.caintainer} ${isMenuOpen ? style.showMenu : ''}`}>\r\n        <li className={style.items}>\r\n          <div className={style.name}>\r\n            <p>Home</p>\r\n            <hr className={style.line} />\r\n          </div>\r\n        </li>\r\n        <li className={style.items}>\r\n          <div className={style.name}>\r\n            <p>Cluster</p>\r\n            <hr className={style.line} />\r\n          </div>\r\n        </li>\r\n        <li className={style.items}>\r\n          <div className={style.name}>\r\n            <p>Skins</p>\r\n            <hr className={style.line} />\r\n          </div>\r\n        </li>\r\n        <li className={style.items}>\r\n          <div className={style.name}>\r\n            <p>Contact</p>\r\n            <hr className={style.line} />\r\n          </div>\r\n        </li>\r\n        <li className={style.items}>\r\n          <div className={style.name}>\r\n            <p>Login</p>\r\n            <hr className={style.line} />\r\n          </div>\r\n        </li>\r\n      </ul>\r\n    </>\r\n  );\r\n};\r\n\r\nexport default Navbar;\r\n\r\n\r\n"
+        }
+    ]
+}

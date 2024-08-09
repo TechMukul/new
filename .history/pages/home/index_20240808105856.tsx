@@ -1,0 +1,29 @@
+import React, { useEffect } from "react";
+import { useRouter } from "next/router"; // Import useRouter from next/router
+import Navbar from "../../Components/Navbar";
+import Dashboardleft from "../../Components/Dashboardleft";
+import style from "./index.module.scss";
+
+const Index = () => {
+  const router = useRouter(); // Initialize useRouter hook
+  return (
+    <div>
+      {/* <Navbar /> */}
+      <Dashboardleft />
+      <div>
+        <div className={style.bg}>
+          <p>
+            Your Virtual Marketplace for In-Game Assets: Buy, Sell, Trade with
+            Confidence
+          </p>
+        </div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  );
+};
+
+export default Index;

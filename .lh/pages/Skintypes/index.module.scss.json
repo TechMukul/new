@@ -1,0 +1,90 @@
+{
+    "sourceFile": "pages/Skintypes/index.module.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 18,
+            "patches": [
+                {
+                    "date": 1723114594457,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1723114602114,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n     flex-wrap: wrap;\r\n     justify-content: space-around;\r\n     background-image: linear-gradient(to top, #6a11cb 0%, #2575fc 100%);\r\n     padding: 20px;\r\n-    background-color: #f0f0f0;\r\n+    // background-color: #f0f0f0;\r\n   }\r\n   \r\n   .card {\r\n     background: #fff;\r\n"
+                },
+                {
+                    "date": 1723114648650,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,13 +1,15 @@\n .cardContainer {\r\n     display: flex;\r\n     flex-wrap: wrap;\r\n     justify-content: space-around;\r\n-    background-image: linear-gradient(to top, #6a11cb 0%, #2575fc 100%);\r\n     padding: 20px;\r\n     // background-color: #f0f0f0;\r\n   }\r\n-  \r\n+  .container{\r\n+    background-image: linear-gradient(to top, #6a11cb 0%, #2575fc 100%);\r\n+\r\n+  }\r\n   .card {\r\n     background: #fff;\r\n     border-radius: 10px;\r\n     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);\r\n"
+                },
+                {
+                    "date": 1723114736423,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,15 +1,17 @@\n+.container{\r\n+  background-image: linear-gradient(to top, #6a11cb 0%, #2575fc 100%);\r\n+\r\n+}\r\n+\r\n .cardContainer {\r\n     display: flex;\r\n     flex-wrap: wrap;\r\n     justify-content: space-around;\r\n     padding: 20px;\r\n     // background-color: #f0f0f0;\r\n   }\r\n-  .container{\r\n-    background-image: linear-gradient(to top, #6a11cb 0%, #2575fc 100%);\r\n-\r\n-  }\r\n+ \r\n   .card {\r\n     background: #fff;\r\n     border-radius: 10px;\r\n     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);\r\n"
+                },
+                {
+                    "date": 1723114801485,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,49 +1,49 @@\n-.container{\r\n+.container {\r\n   background-image: linear-gradient(to top, #6a11cb 0%, #2575fc 100%);\r\n+}\r\n \r\n+.cardContainer {\r\n+  background-image: linear-gradient(to top, #6a11cb 0%, #2575fc 100%);\r\n+\r\n+  display: flex;\r\n+  flex-wrap: wrap;\r\n+  justify-content: space-around;\r\n+  padding: 20px;\r\n+  // background-color: #f0f0f0;\r\n }\r\n \r\n-.cardContainer {\r\n-    display: flex;\r\n-    flex-wrap: wrap;\r\n-    justify-content: space-around;\r\n-    padding: 20px;\r\n-    // background-color: #f0f0f0;\r\n+.card {\r\n+  background: #fff;\r\n+  border-radius: 10px;\r\n+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);\r\n+  margin: 20px;\r\n+  width: 250px;\r\n+  overflow: hidden;\r\n+  transition: transform 0.3s;\r\n+\r\n+  &:hover {\r\n+    transform: scale(1.05);\r\n   }\r\n- \r\n-  .card {\r\n-    background: #fff;\r\n-    border-radius: 10px;\r\n-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);\r\n-    margin: 20px;\r\n-    width: 250px;\r\n-    overflow: hidden;\r\n-    transition: transform 0.3s;\r\n-  \r\n-    &:hover {\r\n-      transform: scale(1.05);\r\n-    }\r\n-  }\r\n-  \r\n-  .cardImage {\r\n\\ No newline at end of file\n-    width: 100%;\r\n-    height: 150px;\r\n-    object-fit: cover;\r\n-  }\r\n-  \r\n-  .cardContent {\r\n-    padding: 20px;\r\n-  }\r\n-  \r\n-  .cardTitle {\r\n-    font-size: 1.5em;\r\n-    margin: 0 0 10px;\r\n-    color: #333;\r\n-  }\r\n-  \r\n-  .cardDate {\r\n-    font-size: 0.9em;\r\n-    color: #777;\r\n-    margin: 0;\r\n-  }\r\n-  \n+}\r\n+\r\n+.cardImage {\r\n+  width: 100%;\r\n+  height: 150px;\r\n+  object-fit: cover;\r\n+}\r\n+\r\n+.cardContent {\r\n+  padding: 20px;\r\n+}\r\n+\r\n+.cardTitle {\r\n+  font-size: 1.5em;\r\n+  margin: 0 0 10px;\r\n+  color: #333;\r\n+}\r\n+\r\n+.cardDate {\r\n+  font-size: 0.9em;\r\n+  color: #777;\r\n+  margin: 0;\r\n+}\r\n"
+                },
+                {
+                    "date": 1723114832259,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n }\r\n \r\n .cardContainer {\r\n   background-image: linear-gradient(to top, #6a11cb 0%, #2575fc 100%);\r\n-\r\n+height: 100vh;\r\n   display: flex;\r\n   flex-wrap: wrap;\r\n   justify-content: space-around;\r\n   padding: 20px;\r\n"
+                },
+                {
+                    "date": 1723114908210,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,7 @@\n-.container {\r\n-  background-image: linear-gradient(to top, #6a11cb 0%, #2575fc 100%);\r\n-}\r\n-\r\n .cardContainer {\r\n   background-image: linear-gradient(to top, #6a11cb 0%, #2575fc 100%);\r\n-height: 100vh;\r\n+  height: 100vh;\r\n   display: flex;\r\n   flex-wrap: wrap;\r\n   justify-content: space-around;\r\n   padding: 20px;\r\n"
+                },
+                {
+                    "date": 1723114999698,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .cardContainer {\r\n-  background-image: linear-gradient(to top, #6a11cb 0%, #2575fc 100%);\r\n+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);\r\n   height: 100vh;\r\n   display: flex;\r\n   flex-wrap: wrap;\r\n   justify-content: space-around;\r\n"
+                },
+                {
+                    "date": 1723115026202,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   display: flex;\r\n   flex-wrap: wrap;\r\n   justify-content: space-around;\r\n   padding: 20px;\r\n-  // background-color: #f0f0f0;\r\n+\r\n }\r\n \r\n .card {\r\n   background: #fff;\r\n"
+                },
+                {
+                    "date": 1723115477678,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,16 +1,15 @@\n .cardContainer {\r\n-  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);\r\n+  background-image: linear-gradient(to left, #6a11cb 0%, #2575fc 100%);\r\n   height: 100vh;\r\n   display: flex;\r\n   flex-wrap: wrap;\r\n   justify-content: space-around;\r\n   padding: 20px;\r\n-\r\n }\r\n \r\n .card {\r\n-  background: #fff;\r\n+  // background: #fff;bacF\r\n   border-radius: 10px;\r\n   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);\r\n   margin: 20px;\r\n   width: 250px;\r\n"
+                },
+                {
+                    "date": 1723115487679,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   padding: 20px;\r\n }\r\n \r\n .card {\r\n-  // background: #fff;bacF\r\n+  background: #fff;\r\n   border-radius: 10px;\r\n   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);\r\n   margin: 20px;\r\n   width: 250px;\r\n"
+                },
+                {
+                    "date": 1723115494063,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,15 +1,15 @@\n .cardContainer {\r\n-  background-image: linear-gradient(to left, #6a11cb 0%, #2575fc 100%);\r\n+  // background-image: linear-gradient(to left, #6a11cb 0%, #2575fc 100%);\r\n   height: 100vh;\r\n   display: flex;\r\n   flex-wrap: wrap;\r\n   justify-content: space-around;\r\n   padding: 20px;\r\n }\r\n \r\n .card {\r\n-  background: #fff;\r\n+  // background: #fff;bacF\r\n   border-radius: 10px;\r\n   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);\r\n   margin: 20px;\r\n   width: 250px;\r\n"
+                },
+                {
+                    "date": 1723115576064,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,8 @@\n .cardContainer {\r\n-  // background-image: linear-gradient(to left, #6a11cb 0%, #2575fc 100%);\r\n+  background: rgb(2,0,36);\r\n+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(33,9,121,0.8045343137254902) 35%, rgba(0,168,255,1) 100%);\r\n+\r\n   height: 100vh;\r\n   display: flex;\r\n   flex-wrap: wrap;\r\n   justify-content: space-around;\r\n"
+                },
+                {
+                    "date": 1723115602630,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   padding: 20px;\r\n }\r\n \r\n .card {\r\n-  // background: #fff;bacF\r\n+  background: #fff;\r\n   border-radius: 10px;\r\n   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);\r\n   margin: 20px;\r\n   width: 250px;\r\n"
+                },
+                {
+                    "date": 1723115615977,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,10 @@\n   padding: 20px;\r\n }\r\n \r\n .card {\r\n-  background: #fff;\r\n+  // background: #fff;\r\n+  background-color: white;\r\n   border-radius: 10px;\r\n   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);\r\n   margin: 20px;\r\n   width: 250px;\r\n"
+                },
+                {
+                    "date": 1723115631044,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,8 +31,9 @@\n }\r\n \r\n .cardContent {\r\n   padding: 20px;\r\n+  background-color: white;\r\n }\r\n \r\n .cardTitle {\r\n   font-size: 1.5em;\r\n"
+                },
+                {
+                    "date": 1723115641126,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,8 +38,9 @@\n .cardTitle {\r\n   font-size: 1.5em;\r\n   margin: 0 0 10px;\r\n   color: #333;\r\n+  background-color: white;\r\n }\r\n \r\n .cardDate {\r\n   font-size: 0.9em;\r\n"
+                },
+                {
+                    "date": 1723115724611,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n }\r\n \r\n .cardContent {\r\n   padding: 20px;\r\n-  background-color: white;\r\n+  background-color: rgb(242, 238, 238);\r\n }\r\n \r\n .cardTitle {\r\n   font-size: 1.5em;\r\n"
+                },
+                {
+                    "date": 1723115749269,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n .cardTitle {\r\n   font-size: 1.5em;\r\n   margin: 0 0 10px;\r\n   color: #333;\r\n-  background-color: white;\r\n+  background-color: rgb(242, 238, 238);\r\n }\r\n \r\n .cardDate {\r\n   font-size: 0.9em;\r\n"
+                }
+            ],
+            "date": 1723114594457,
+            "name": "Commit-0",
+            "content": ".cardContainer {\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n    justify-content: space-around;\r\n    background-image: linear-gradient(to top, #6a11cb 0%, #2575fc 100%);\r\n    padding: 20px;\r\n    background-color: #f0f0f0;\r\n  }\r\n  \r\n  .card {\r\n    background: #fff;\r\n    border-radius: 10px;\r\n    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);\r\n    margin: 20px;\r\n    width: 250px;\r\n    overflow: hidden;\r\n    transition: transform 0.3s;\r\n  \r\n    &:hover {\r\n      transform: scale(1.05);\r\n    }\r\n  }\r\n  \r\n  .cardImage {\r\n    width: 100%;\r\n    height: 150px;\r\n    object-fit: cover;\r\n  }\r\n  \r\n  .cardContent {\r\n    padding: 20px;\r\n  }\r\n  \r\n  .cardTitle {\r\n    font-size: 1.5em;\r\n    margin: 0 0 10px;\r\n    color: #333;\r\n  }\r\n  \r\n  .cardDate {\r\n    font-size: 0.9em;\r\n    color: #777;\r\n    margin: 0;\r\n  }\r\n  "
+        }
+    ]
+}

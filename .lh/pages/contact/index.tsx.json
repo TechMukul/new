@@ -1,0 +1,26 @@
+{
+    "sourceFile": "pages/contact/index.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1723108565882,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1723108728740,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import React from 'react';\r\n import style from './index.module.scss';\r\n-import video from  '../video/video2.mp4'\r\n+import video from  '@/public/video/video.mp4'\r\n const Contact = () => {\r\n   return (\r\n     <div className={style.container}>\r\n       <div>\r\n"
+                },
+                {
+                    "date": 1723108825972,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n   return (\r\n     <div className={style.container}>\r\n       <div>\r\n           <video autoPlay muted loop>\r\n-            <source src={video} type=\"video/mp4\" />\r\n+            <source src={\"/video/video.mp4\"} type=\"video/mp4\" />\r\n           </video>\r\n         </div>  \r\n       <div className={style.boxes}>\r\n         <div className={style.box}>\r\n"
+                }
+            ],
+            "date": 1723108565882,
+            "name": "Commit-0",
+            "content": "import React from 'react';\r\nimport style from './index.module.scss';\r\nimport video from  '../video/video2.mp4'\r\nconst Contact = () => {\r\n  return (\r\n    <div className={style.container}>\r\n      <div>\r\n          <video autoPlay muted loop>\r\n            <source src={video} type=\"video/mp4\" />\r\n          </video>\r\n        </div>  \r\n      <div className={style.boxes}>\r\n        <div className={style.box}>\r\n          <a href='https://discord.com/invite/TGkbUAUm' target=\"_blank\">\r\n          <img src='https://i.ytimg.com/vi/7V5jdOjWVU4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCCLmAxRosK3Ltbar9OdDhUHFuDug'></img>\r\n          </a>\r\n        </div>\r\n        <div className={style.box}>\r\n          <a href='https://invite.viber.com/?g2=AQAusJqNJtfIzU8LH8LWnBAuvbmC3ag3bNyVftqLDNZAh%2FV1XT1%2FQ8p1cvglNgwr' target='_blank' >\r\n          \r\n            <img src='https://gravitec.net/blog/wp-content/uploads/2019/05/Viber-logo-1.png'></img>\r\n          </a>\r\n        </div>\r\n        <div className={style.box}>\r\n          <a href='https://www.facebook.com/share/NsuJjh5DgDfckfe8/?mibextid=A7sQZp'>\r\n          <img src='https://static1.howtogeekimages.com/wordpress/wp-content/uploads/2022/03/facebook_logo_hero_1200x675.jpg'></img>\r\n          </a>\r\n        </div>\r\n        <div className={style.box}>\r\n          <a href='tel:++919643568010'>\r\n            <img src='https://static.vecteezy.com/system/resources/thumbnails/016/969/401/original/incoming-call-with-accept-and-decline-option-animation-on-black-background-talking-call-screen-telephone-symbol-phone-calling-and-phone-ring-user-interface-animation-with-timer-smartphone-free-video.jpg'></img>\r\n          </a>\r\n        </div>\r\n      </div>\r\n      \r\n    </div>\r\n  );\r\n}\r\n\r\nexport default Contact;\r\n"
+        }
+    ]
+}

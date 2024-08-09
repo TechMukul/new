@@ -1,0 +1,94 @@
+{
+    "sourceFile": "Components/Navbar/index.module.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 19,
+            "patches": [
+                {
+                    "date": 1723108457902,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1723108912316,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n   position: relative;\r\n   top: 10px;\r\n }\r\n \r\n-hr {\r\n+.hr {\r\n   border: 1px solid black;\r\n }\r\n \r\n .hamburger {\r\n"
+                },
+                {
+                    "date": 1723108939597,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,88 @@\n+.caintainer {\r\n+  display: flex;\r\n+  justify-content: end;\r\n+  padding: 30px;\r\n+  width: 100%;\r\n+  position: absolute;\r\n+  color: white;\r\n+  background: rgb(2,0,36);\r\n+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 46%, rgba(0,212,255,1) 100%);\r\n+  z-index: 40;\r\n+  gap: 30px;\r\n+}\r\n+\r\n+.items {\r\n+  position: relative;\r\n+  right: 80px;\r\n+  font-size: 18px;\r\n+}\r\n+\r\n+.name {\r\n+  display: flex;\r\n+}\r\n+\r\n+.name p {\r\n+  cursor: pointer;\r\n+}\r\n+\r\n+.name p:hover {\r\n+  transform: scale(1.2);\r\n+  transition: transform 0.3s linear;\r\n+}\r\n+\r\n+.line {\r\n+  width: 30px;\r\n+  transform: rotate(90deg);\r\n+  position: relative;\r\n+  top: 10px;\r\n+  border: 1px solid black;\r\n+}\r\n+\r\n+.hr {\r\n+\r\n+}\r\n+\r\n+.hamburger {\r\n+  display: none;\r\n+  font-size: 24px;\r\n+  cursor: pointer;\r\n+  position: absolute;\r\n+  left: 20px;\r\n+  top: 20px;\r\n+  z-index: 50;\r\n+}\r\n+\r\n+@media screen and (max-width: 768px) {\r\n+  .caintainer {\r\n+      display: none;\r\n+  }\r\n+  \r\n+  .hamburger {\r\n+      display: block;\r\n+      color: white;\r\n+  }\r\n+  .line{\r\n+      display: none;\r\n+  }\r\n+  .name {\r\n+      position: absolute;\r\n+      top: 100px;\r\n+      width: 100%;\r\n+      font-size: 30px;\r\n+  }\r\n+  .name p{\r\n+      border-bottom: 1px solid white;\r\n+      border-top: 1px solid white;\r\n+  }\r\n+  .showMenu {\r\n+      display: flex;\r\n+      flex-direction: column;\r\n+      justify-content: start;\r\n+      gap: 80px;\r\n+      align-items: center;\r\n+      top: 0px;\r\n+      height: 100vh;\r\n+      width: 70%;\r\n+  }\r\n+}\r\n+\r\n"
+                },
+                {
+                    "date": 1723108954277,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,15 +34,12 @@\n   width: 30px;\r\n   transform: rotate(90deg);\r\n   position: relative;\r\n   top: 10px;\r\n-  border: 1px solid black;\r\n+  // border: 1px solid black;\r\n }\r\n \r\n-.hr {\r\n \r\n-}\r\n-\r\n .hamburger {\r\n   display: none;\r\n   font-size: 24px;\r\n   cursor: pointer;\r\n@@ -85,91 +82,4 @@\n       width: 70%;\r\n   }\r\n }\r\n \r\n-.caintainer {\r\n-  display: flex;\r\n-  justify-content: end;\r\n-  padding: 30px;\r\n-  width: 100%;\r\n-  position: absolute;\r\n-  color: white;\r\n-  background: rgb(2,0,36);\r\n-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 46%, rgba(0,212,255,1) 100%);\r\n-  z-index: 40;\r\n-  gap: 30px;\r\n-}\r\n-\r\n-.items {\r\n-  position: relative;\r\n-  right: 80px;\r\n-  font-size: 18px;\r\n-}\r\n-\r\n-.name {\r\n-  display: flex;\r\n-}\r\n-\r\n-.name p {\r\n-  cursor: pointer;\r\n-}\r\n-\r\n-.name p:hover {\r\n-  transform: scale(1.2);\r\n-  transition: transform 0.3s linear;\r\n-}\r\n-\r\n-.line {\r\n-  width: 30px;\r\n-  transform: rotate(90deg);\r\n-  position: relative;\r\n-  top: 10px;\r\n-}\r\n-\r\n-.hr {\r\n-  border: 1px solid black;\r\n-}\r\n-\r\n-.hamburger {\r\n-  display: none;\r\n-  font-size: 24px;\r\n-  cursor: pointer;\r\n-  position: absolute;\r\n-  left: 20px;\r\n-  top: 20px;\r\n-  z-index: 50;\r\n-}\r\n-\r\n-@media screen and (max-width: 768px) {\r\n-  .caintainer {\r\n-      display: none;\r\n-  }\r\n-  \r\n-  .hamburger {\r\n-      display: block;\r\n-      color: white;\r\n-  }\r\n-  .line{\r\n-      display: none;\r\n-  }\r\n-  .name {\r\n-      position: absolute;\r\n-      top: 100px;\r\n-      width: 100%;\r\n-      font-size: 30px;\r\n-  }\r\n-  .name p{\r\n-      border-bottom: 1px solid white;\r\n-      border-top: 1px solid white;\r\n-  }\r\n-  .showMenu {\r\n-      display: flex;\r\n-      flex-direction: column;\r\n-      justify-content: start;\r\n-      gap: 80px;\r\n-      align-items: center;\r\n-      top: 0px;\r\n-      height: 100vh;\r\n-      width: 70%;\r\n-  }\r\n-}\r\n-\r\n"
+                },
+                {
+                    "date": 1723109057872,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,11 +34,13 @@\n   width: 30px;\r\n   transform: rotate(90deg);\r\n   position: relative;\r\n   top: 10px;\r\n-  // border: 1px solid black;\r\n }\r\n \r\n+.hr {\r\n+  border: 1px solid black;\r\n+}\r\n \r\n .hamburger {\r\n   display: none;\r\n   font-size: 24px;\r\n"
+                },
+                {
+                    "date": 1723109076106,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,12 +36,10 @@\n   position: relative;\r\n   top: 10px;\r\n }\r\n \r\n-.hr {\r\n-  border: 1px solid black;\r\n-}\r\n \r\n+\r\n .hamburger {\r\n   display: none;\r\n   font-size: 24px;\r\n   cursor: pointer;\r\n"
+                },
+                {
+                    "date": 1723109105877,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,10 +67,10 @@\n       width: 100%;\r\n       font-size: 30px;\r\n   }\r\n   .name p{\r\n-      border-bottom: 1px solid white;\r\n-      border-top: 1px solid white;\r\n+      // border-bottom: 1px solid white;\r\n+      // border-top: 1px solid white;\r\n   }\r\n   .showMenu {\r\n       display: flex;\r\n       flex-direction: column;\r\n"
+                },
+                {
+                    "date": 1723109114572,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,10 +67,10 @@\n       width: 100%;\r\n       font-size: 30px;\r\n   }\r\n   .name p{\r\n-      // border-bottom: 1px solid white;\r\n-      // border-top: 1px solid white;\r\n+      border-bottom: 1px solid white;\r\n+      border-top: 1px solid white;\r\n   }\r\n   .showMenu {\r\n       display: flex;\r\n       flex-direction: column;\r\n"
+                },
+                {
+                    "date": 1723109142036,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,14 +29,14 @@\n   transform: scale(1.2);\r\n   transition: transform 0.3s linear;\r\n }\r\n \r\n-.line {\r\n-  width: 30px;\r\n-  transform: rotate(90deg);\r\n-  position: relative;\r\n-  top: 10px;\r\n-}\r\n+// .line {\r\n+//   width: 30px;\r\n+//   transform: rotate(90deg);\r\n+//   position: relative;\r\n+//   top: 10px;\r\n+// }\r\n \r\n \r\n \r\n .hamburger {\r\n"
+                },
+                {
+                    "date": 1723109159872,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,14 +29,11 @@\n   transform: scale(1.2);\r\n   transition: transform 0.3s linear;\r\n }\r\n \r\n-// .line {\r\n-//   width: 30px;\r\n-//   transform: rotate(90deg);\r\n-//   position: relative;\r\n-//   top: 10px;\r\n-// }\r\n+.line {\r\n+  width: 30px;\r\n+}\r\n \r\n \r\n \r\n .hamburger {\r\n"
+                },
+                {
+                    "date": 1723109170132,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n   transition: transform 0.3s linear;\r\n }\r\n \r\n .line {\r\n-  width: 30px;\r\n+  display: flex;\r\n }\r\n \r\n \r\n \r\n"
+                },
+                {
+                    "date": 1723109182753,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,8 +31,9 @@\n }\r\n \r\n .line {\r\n   display: flex;\r\n+  gap:10px;\r\n }\r\n \r\n \r\n \r\n"
+                },
+                {
+                    "date": 1723109237058,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,10 +30,9 @@\n   transition: transform 0.3s linear;\r\n }\r\n \r\n .line {\r\n-  display: flex;\r\n-  gap:10px;\r\n+  padding-left: 20px;\r\n }\r\n \r\n \r\n \r\n"
+                },
+                {
+                    "date": 1723109260844,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n   transition: transform 0.3s linear;\r\n }\r\n \r\n .line {\r\n-  padding-left: 20px;\r\n+  margin-left:10px;\r\n }\r\n \r\n \r\n \r\n"
+                },
+                {
+                    "date": 1723109276924,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n   display: flex;\r\n   justify-content: end;\r\n   padding: 30px;\r\n   width: 100%;\r\n-  position: absolute;\r\n+  // position: absolute;\r\n   color: white;\r\n   background: rgb(2,0,36);\r\n   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 46%, rgba(0,212,255,1) 100%);\r\n   z-index: 40;\r\n"
+                },
+                {
+                    "date": 1723109284152,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   color: white;\r\n   background: rgb(2,0,36);\r\n   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 46%, rgba(0,212,255,1) 100%);\r\n   z-index: 40;\r\n-  gap: 30px;\r\n+  // gap: 30px;\r\n }\r\n \r\n .items {\r\n   position: relative;\r\n"
+                },
+                {
+                    "date": 1723109612889,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,15 +1,15 @@\n .caintainer {\r\n   display: flex;\r\n   justify-content: end;\r\n-  padding: 30px;\r\n+  // padding: 30px;\r\n   width: 100%;\r\n   // position: absolute;\r\n   color: white;\r\n   background: rgb(2,0,36);\r\n   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 46%, rgba(0,212,255,1) 100%);\r\n   z-index: 40;\r\n-  // gap: 30px;\r\n+  gap: 30px;\r\n }\r\n \r\n .items {\r\n   position: relative;\r\n"
+                },
+                {
+                    "date": 1723109681937,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,16 +1,16 @@\n-.caintainer {\r\n-  display: flex;\r\n-  justify-content: end;\r\n-  // padding: 30px;\r\n-  width: 100%;\r\n-  // position: absolute;\r\n-  color: white;\r\n-  background: rgb(2,0,36);\r\n-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 46%, rgba(0,212,255,1) 100%);\r\n-  z-index: 40;\r\n-  gap: 30px;\r\n-}\r\n+// .caintainer {\r\n+//   display: flex;\r\n+//   justify-content: end;\r\n+//   padding: 30px;\r\n+//   width: 100%;\r\n+//   // position: absolute;\r\n+//   color: white;\r\n+//   background: rgb(2,0,36);\r\n+//   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 46%, rgba(0,212,255,1) 100%);\r\n+//   z-index: 40;\r\n+//   gap: 30px;\r\n+// }\r\n \r\n .items {\r\n   position: relative;\r\n   right: 80px;\r\n"
+                },
+                {
+                    "date": 1723109693236,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,16 +1,16 @@\n-// .caintainer {\r\n-//   display: flex;\r\n-//   justify-content: end;\r\n-//   padding: 30px;\r\n-//   width: 100%;\r\n-//   // position: absolute;\r\n-//   color: white;\r\n-//   background: rgb(2,0,36);\r\n-//   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 46%, rgba(0,212,255,1) 100%);\r\n-//   z-index: 40;\r\n-//   gap: 30px;\r\n-// }\r\n+.caintainer {\r\n+  display: flex;\r\n+  justify-content: end;\r\n+  padding: 30px;\r\n+  width: 100%;\r\n+  // position: absolute;\r\n+  color: white;\r\n+  background: rgb(2,0,36);\r\n+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 46%, rgba(0,212,255,1) 100%);\r\n+  z-index: 40;\r\n+  gap: 30px;\r\n+}\r\n \r\n .items {\r\n   position: relative;\r\n   right: 80px;\r\n"
+                },
+                {
+                    "date": 1723112154471,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .caintainer {\r\n   display: flex;\r\n   justify-content: end;\r\n   padding: 30px;\r\n-  width: 100%;\r\n+  // width: 100%;\r\n   // position: absolute;\r\n   color: white;\r\n   background: rgb(2,0,36);\r\n   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 46%, rgba(0,212,255,1) 100%);\r\n"
+                }
+            ],
+            "date": 1723108457902,
+            "name": "Commit-0",
+            "content": ".caintainer {\r\n  display: flex;\r\n  justify-content: end;\r\n  padding: 30px;\r\n  width: 100%;\r\n  position: absolute;\r\n  color: white;\r\n  background: rgb(2,0,36);\r\n  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 46%, rgba(0,212,255,1) 100%);\r\n  z-index: 40;\r\n  gap: 30px;\r\n}\r\n\r\n.items {\r\n  position: relative;\r\n  right: 80px;\r\n  font-size: 18px;\r\n}\r\n\r\n.name {\r\n  display: flex;\r\n}\r\n\r\n.name p {\r\n  cursor: pointer;\r\n}\r\n\r\n.name p:hover {\r\n  transform: scale(1.2);\r\n  transition: transform 0.3s linear;\r\n}\r\n\r\n.line {\r\n  width: 30px;\r\n  transform: rotate(90deg);\r\n  position: relative;\r\n  top: 10px;\r\n}\r\n\r\nhr {\r\n  border: 1px solid black;\r\n}\r\n\r\n.hamburger {\r\n  display: none;\r\n  font-size: 24px;\r\n  cursor: pointer;\r\n  position: absolute;\r\n  left: 20px;\r\n  top: 20px;\r\n  z-index: 50;\r\n}\r\n\r\n@media screen and (max-width: 768px) {\r\n  .caintainer {\r\n      display: none;\r\n  }\r\n  \r\n  .hamburger {\r\n      display: block;\r\n      color: white;\r\n  }\r\n  .line{\r\n      display: none;\r\n  }\r\n  .name {\r\n      position: absolute;\r\n      top: 100px;\r\n      width: 100%;\r\n      font-size: 30px;\r\n  }\r\n  .name p{\r\n      border-bottom: 1px solid white;\r\n      border-top: 1px solid white;\r\n  }\r\n  .showMenu {\r\n      display: flex;\r\n      flex-direction: column;\r\n      justify-content: start;\r\n      gap: 80px;\r\n      align-items: center;\r\n      top: 0px;\r\n      height: 100vh;\r\n      width: 70%;\r\n  }\r\n}\r\n\r\n"
+        }
+    ]
+}

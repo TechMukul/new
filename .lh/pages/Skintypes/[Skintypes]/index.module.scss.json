@@ -1,0 +1,42 @@
+{
+    "sourceFile": "pages/Skintypes/[Skintypes]/index.module.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1723115346579,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1723115370480,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n     display: flex;\r\n     flex-wrap: wrap;\r\n     justify-content: space-around;\r\n     padding: 20px;\r\n+    background-color: red;\r\n     \r\n   }\r\n   \r\n   .card {\r\n"
+                },
+                {
+                    "date": 1723115392032,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,10 +2,9 @@\n     display: flex;\r\n     flex-wrap: wrap;\r\n     justify-content: space-around;\r\n     padding: 20px;\r\n-    background-color: red;\r\n-    \r\n+    background-color: #f0f0f0;\r\n   }\r\n   \r\n   .card {\r\n     background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);\r\n"
+                },
+                {
+                    "date": 1723115407953,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,10 @@\n     display: flex;\r\n     flex-wrap: wrap;\r\n     justify-content: space-around;\r\n     padding: 20px;\r\n-    background-color: #f0f0f0;\r\n+    // background-color: #f0f0f0;\r\n+    background-color: red;\r\n   }\r\n   \r\n   .card {\r\n     background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);\r\n"
+                },
+                {
+                    "date": 1723115701795,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,10 @@\n     flex-wrap: wrap;\r\n     justify-content: space-around;\r\n     padding: 20px;\r\n     // background-color: #f0f0f0;\r\n-    background-color: red;\r\n+    background: rgb(2,0,36);\r\n+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(33,9,121,0.8045343137254902) 35%, rgba(0,168,255,1) 100%);\r\n   }\r\n   \r\n   .card {\r\n     background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);\r\n"
+                },
+                {
+                    "date": 1723115778080,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,13 +38,15 @@\n   .cardTitle {\r\n     font-size: 1.8em;\r\n     margin: 0;\r\n     color: #fff;\r\n+    background-color: rgb(242, 238, 238);\r\n     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);\r\n   }\r\n   \r\n   .cardText {\r\n     font-size: 1em;\r\n     color: #fff;\r\n     margin: 10px 0;\r\n+    background-color: rgb(242, 238, 238);\r\n   }\r\n   \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1723115784460,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,15 +38,14 @@\n   .cardTitle {\r\n     font-size: 1.8em;\r\n     margin: 0;\r\n     color: #fff;\r\n-    background-color: rgb(242, 238, 238);\r\n+    \r\n     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);\r\n   }\r\n   \r\n   .cardText {\r\n     font-size: 1em;\r\n     color: #fff;\r\n     margin: 10px 0;\r\n-    background-color: rgb(242, 238, 238);\r\n   }\r\n   \n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1723115346579,
+            "name": "Commit-0",
+            "content": ".cardContainer {\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n    justify-content: space-around;\r\n    padding: 20px;\r\n    \r\n  }\r\n  \r\n  .card {\r\n    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);\r\n    border-radius: 15px;\r\n    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);\r\n    margin: 20px;\r\n    width: 250px;\r\n    overflow: hidden;\r\n    transition: transform 0.3s, box-shadow 0.3s;\r\n  \r\n    &:hover {\r\n      transform: scale(1.05);\r\n      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);\r\n    }\r\n  }\r\n  \r\n  .cardImage {\r\n    width: 100%;\r\n    height: 200px;\r\n    object-fit: cover;\r\n    border-bottom: 2px solid #fff;\r\n  }\r\n  \r\n  .cardContent {\r\n    padding: 20px;\r\n    text-align: center;\r\n  }\r\n  \r\n  .cardTitle {\r\n    font-size: 1.8em;\r\n    margin: 0;\r\n    color: #fff;\r\n    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);\r\n  }\r\n  \r\n  .cardText {\r\n    font-size: 1em;\r\n    color: #fff;\r\n    margin: 10px 0;\r\n  }\r\n  "
+        }
+    ]
+}

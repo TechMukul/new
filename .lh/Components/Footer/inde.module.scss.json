@@ -1,0 +1,22 @@
+{
+    "sourceFile": "Components/Footer/inde.module.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1723112093569,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1723112128236,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     justify-content: center;\r\n     align-items: center;\r\n     background-color: black;\r\n     color: white;\r\n-    position: absolute;\r\n+    // position: absolute;\r\n     bottom: 0;\r\n   \r\n     .text {\r\n       margin: 0;\r\n"
+                }
+            ],
+            "date": 1723112093569,
+            "name": "Commit-0",
+            "content": ".footer {\r\n    width: 100%;\r\n    height: 3rem; /* Equivalent to h-12 in Tailwind */\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    background-color: black;\r\n    color: white;\r\n    position: absolute;\r\n    bottom: 0;\r\n  \r\n    .text {\r\n      margin: 0;\r\n    }\r\n  \r\n    .icon {\r\n      position: absolute;\r\n      height: 2.5rem; /* Equivalent to h-10 in Tailwind */\r\n      width: 3rem; /* Equivalent to w-12 in Tailwind */\r\n      bottom: 1.75rem; /* Equivalent to bottom-7 in Tailwind */\r\n      right: 3.5rem; /* Equivalent to right-14 in Tailwind */\r\n      cursor: pointer;\r\n      transition: transform 0.3s ease; /* For hover effect */\r\n      \r\n      &:hover {\r\n        transform: scale(1.10);\r\n      }\r\n  \r\n      &.mobile-hidden {\r\n        @media (max-width: 768px) {\r\n          display: none; /* Hide on mobile screens */\r\n        }\r\n      }\r\n    }\r\n  }\r\n  "
+        }
+    ]
+}

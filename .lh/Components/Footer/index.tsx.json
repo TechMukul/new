@@ -1,0 +1,38 @@
+{
+    "sourceFile": "Components/Footer/index.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 5,
+            "patches": [
+                {
+                    "date": 1723108499623,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1723108522858,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,15 +1,14 @@\n+import React from 'react'\r\n+\r\n const Footer = () => {\r\n-    return (\r\n-      <div className=\"w-full  h-12 flex justify-center items-center bg-black text-white absolute bottom-0\">\r\n-        <div>\r\n-          © 2024 Sufficient Premium Club. All rights reserved.\r\n-        </div>\r\n-        <div className='absolute h-10 w-12 bottom-7 right-14 hover:scale-110 cursor-pointer mobile:hidden'>\r\n-          <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhatsApp_icon.png/598px-WhatsApp_icon.png'></img>\r\n-        </div>\r\n+  return (\r\n+    <div className=\"w-full  h-12 flex justify-center items-center bg-black text-white absolute bottom-0\">\r\n+      <div>\r\n+        © 2024 Sufficient Premium Club. All rights reserved.\r\n\\ No newline at end of file\n       </div>\r\n-    )\r\n-  }\r\n-  \r\n-  export default Footer\r\n-  \n+      <div className='absolute h-10 w-12 bottom-7 right-14 hover:scale-110 cursor-pointer mobile:hidden'>\r\n+        <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhatsApp_icon.png/598px-WhatsApp_icon.png'></img>\r\n+      </div>\r\n+    </div>\r\n+  )\r\n+}\r\n"
+                },
+                {
+                    "date": 1723108528659,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,5 +10,6 @@\n         <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhatsApp_icon.png/598px-WhatsApp_icon.png'></img>\r\n       </div>\r\n     </div>\r\n   )\r\n-}\n\\ No newline at end of file\n+}\r\n+export default Footer\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1723112045620,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import React from 'react'\r\n-\r\n+import styles from './inde.module.scss'\r\n const Footer = () => {\r\n   return (\r\n     <div className=\"w-full  h-12 flex justify-center items-center bg-black text-white absolute bottom-0\">\r\n       <div>\r\n"
+                },
+                {
+                    "date": 1723112100060,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,15 +1,20 @@\n-import React from 'react'\r\n-import styles from './inde.module.scss'\r\n+import React from 'react';\r\n+import styles from './inde.module.scss';\r\n+\r\n const Footer = () => {\r\n   return (\r\n-    <div className=\"w-full  h-12 flex justify-center items-center bg-black text-white absolute bottom-0\">\r\n-      <div>\r\n+    <div className={styles.footer}>\r\n+      <div className={styles.text}>\r\n         © 2024 Sufficient Premium Club. All rights reserved.\r\n       </div>\r\n-      <div className='absolute h-10 w-12 bottom-7 right-14 hover:scale-110 cursor-pointer mobile:hidden'>\r\n-        <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhatsApp_icon.png/598px-WhatsApp_icon.png'></img>\r\n\\ No newline at end of file\n+      <div className={`${styles.icon} ${styles['mobile-hidden']}`}>\r\n+        <img \r\n+          src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhatsApp_icon.png/598px-WhatsApp_icon.png' \r\n+          alt='WhatsApp Icon'\r\n+        />\r\n       </div>\r\n     </div>\r\n-  )\r\n+  );\r\n }\r\n-export default Footer\n+\r\n+export default Footer;\r\n"
+                },
+                {
+                    "date": 1723112117898,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,12 +7,12 @@\n       <div className={styles.text}>\r\n         © 2024 Sufficient Premium Club. All rights reserved.\r\n       </div>\r\n       <div className={`${styles.icon} ${styles['mobile-hidden']}`}>\r\n-        <img \r\n+        {/* <img \r\n           src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhatsApp_icon.png/598px-WhatsApp_icon.png' \r\n           alt='WhatsApp Icon'\r\n-        />\r\n+        /> */}\r\n       </div>\r\n     </div>\r\n   );\r\n }\r\n"
+                }
+            ],
+            "date": 1723108499623,
+            "name": "Commit-0",
+            "content": "const Footer = () => {\r\n    return (\r\n      <div className=\"w-full  h-12 flex justify-center items-center bg-black text-white absolute bottom-0\">\r\n        <div>\r\n          © 2024 Sufficient Premium Club. All rights reserved.\r\n        </div>\r\n        <div className='absolute h-10 w-12 bottom-7 right-14 hover:scale-110 cursor-pointer mobile:hidden'>\r\n          <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhatsApp_icon.png/598px-WhatsApp_icon.png'></img>\r\n        </div>\r\n      </div>\r\n    )\r\n  }\r\n  \r\n  export default Footer\r\n  "
+        }
+    ]
+}

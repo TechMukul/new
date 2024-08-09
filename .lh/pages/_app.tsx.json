@@ -1,0 +1,30 @@
+{
+    "sourceFile": "pages/_app.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1723097571913,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1723097602494,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   return (\r\n     <>\r\n       <Head>\r\n         <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" />\r\n-        <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />\r\n+        <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\"  />\r\n         <link\r\n           href=\"https://fonts.googleapis.com/css2?family=Aclonica&family=Oswald:wght@200..700&display=swap\"\r\n           rel=\"stylesheet\"\r\n         />\r\n"
+                },
+                {
+                    "date": 1723108845511,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n // pages/_app.tsx\r\n import { AppProps } from 'next/app';\r\n import Head from 'next/head'; // Import Head from next/head\r\n import '../styles/globals.css';\r\n+import Navbar from '@/Components/Navbar';\r\n \r\n function MyApp({ Component, pageProps }: AppProps) {\r\n   return (\r\n     <>\r\n@@ -13,8 +14,9 @@\n           href=\"https://fonts.googleapis.com/css2?family=Aclonica&family=Oswald:wght@200..700&display=swap\"\r\n           rel=\"stylesheet\"\r\n         />\r\n       </Head>\r\n+      <Navbar />\r\n       <Component {...pageProps} />\r\n     </>\r\n   );\r\n }\r\n"
+                },
+                {
+                    "date": 1723111959796,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n import { AppProps } from 'next/app';\r\n import Head from 'next/head'; // Import Head from next/head\r\n import '../styles/globals.css';\r\n import Navbar from '@/Components/Navbar';\r\n+import Footer from '@/Components/Footer';\r\n \r\n function MyApp({ Component, pageProps }: AppProps) {\r\n   return (\r\n     <>\r\n@@ -16,8 +17,9 @@\n         />\r\n       </Head>\r\n       <Navbar />\r\n       <Component {...pageProps} />\r\n+      <Footer />\r\n     </>\r\n   );\r\n }\r\n \r\n"
+                }
+            ],
+            "date": 1723097571913,
+            "name": "Commit-0",
+            "content": "// pages/_app.tsx\r\nimport { AppProps } from 'next/app';\r\nimport Head from 'next/head'; // Import Head from next/head\r\nimport '../styles/globals.css';\r\n\r\nfunction MyApp({ Component, pageProps }: AppProps) {\r\n  return (\r\n    <>\r\n      <Head>\r\n        <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" />\r\n        <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />\r\n        <link\r\n          href=\"https://fonts.googleapis.com/css2?family=Aclonica&family=Oswald:wght@200..700&display=swap\"\r\n          rel=\"stylesheet\"\r\n        />\r\n      </Head>\r\n      <Component {...pageProps} />\r\n    </>\r\n  );\r\n}\r\n\r\nexport default MyApp;\r\n"
+        }
+    ]
+}
