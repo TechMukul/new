@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 118,
+            "activePatchIndex": 120,
             "patches": [
                 {
                     "date": 1723094639788,
@@ -480,6 +480,14 @@
                 {
                     "date": 1723116167064,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n .container {\r\n   background: #2f87ed;\r\n   padding-top: 1%;\r\n+  width: 100%;\r\n }\r\n .cardContainer {\r\n   display: flex;\r\n   gap: 0%;\r\n"
+                },
+                {
+                    "date": 1723206209896,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .container {\r\n-  background: #2f87ed;\r\n+  // background: #2f87ed;\r\n   padding-top: 1%;\r\n   width: 100%;\r\n }\r\n .cardContainer {\r\n"
+                },
+                {
+                    "date": 1723206217616,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     flex-direction: column;\r\n   }\r\n }\r\n .bg {\r\n-  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);\r\n+  // background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);\r\n   margin: 0 auto;\r\n   margin-top: 20px;\r\n   width: 90%;\r\n   align-items: center;\r\n"
                 }
             ],
             "date": 1723094639788,

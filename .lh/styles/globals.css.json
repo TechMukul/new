@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 1,
+            "activePatchIndex": 3,
             "patches": [
                 {
                     "date": 1723097694923,
@@ -12,6 +12,14 @@
                 {
                     "date": 1723109974967,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,9 @@\n+*{\r\n+  margin: 0%;\r\n+  padding: 0%;\r\n+}\r\n+\r\n body {\r\n   font-family: 'Oswald', sans-serif; /* Apply Oswald font to the whole document */\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1723206035606,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n *{\r\n   margin: 0%;\r\n   padding: 0%;\r\n+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);\r\n }\r\n \r\n body {\r\n   font-family: 'Oswald', sans-serif; /* Apply Oswald font to the whole document */\r\n"
+                },
+                {
+                    "date": 1723206047145,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n *{\r\n   margin: 0%;\r\n   padding: 0%;\r\n-  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);\r\n+  \r\n }\r\n \r\n body {\r\n   font-family: 'Oswald', sans-serif; /* Apply Oswald font to the whole document */\r\n"
                 }
             ],
             "date": 1723097694923,

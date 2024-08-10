@@ -1,0 +1,18 @@
+{
+    "sourceFile": "pages/Graphs/index.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1723210353195,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1723210353195,
+            "name": "Commit-0",
+            "content": "import React, { useEffect, useState } from 'react';\r\nimport { Bar } from 'react-chartjs-2';\r\nimport axios from 'axios';\r\nimport styles from './index.module.scss';\r\n// import Navbar from '../../Components/Navbar';\r\n// import Dashboard from '../../Components/Dashboardleft';\r\nimport 'chart.js/auto';\r\n\r\ninterface User {\r\n  createdAt: string;\r\n}\r\n\r\ninterface ChartData {\r\n  labels: string[];\r\n  datasets: {\r\n    label: string;\r\n    data: number[];\r\n    backgroundColor: string;\r\n    borderColor: string;\r\n    borderWidth: number;\r\n  }[];\r\n}\r\n\r\nconst Index: React.FC = () => {\r\n  const [users, setUsers] = useState<User[]>([]);\r\n  const [chartData, setChartData] = useState<ChartData>({\r\n    labels: [],\r\n    datasets: [],\r\n  });\r\n\r\n  useEffect(() => {\r\n    const fetchUsers = async () => {\r\n      try {\r\n        const response = await axios.get('http://localhost:3000/auth/all');\r\n        setUsers(response.data);\r\n        prepareChartData(response.data);\r\n      } catch (error) {\r\n        console.error('Error fetching users:', error);\r\n      }\r\n    };\r\n\r\n    fetchUsers();\r\n  }, []);\r\n\r\n  const prepareChartData = (data: User[]) => {\r\n    const sortedUsers = data.sort((a, b) => new Date(a.createdAt).getTime() - new Date(b.createdAt).getTime());\r\n    const labels = sortedUsers.map(user => new Date(user.createdAt).toLocaleDateString());\r\n    const counts = sortedUsers.map((_, index) => index + 1);\r\n\r\n    setChartData({\r\n      labels: labels,\r\n      datasets: [\r\n        {\r\n          label: 'Number of Users',\r\n          data: counts,\r\n          backgroundColor: 'rgba(75, 192, 192, 0.6)',\r\n          borderColor: 'rgba(75, 192, 192, 1)',\r\n          borderWidth: 1,\r\n        },\r\n      ],\r\n    });\r\n  };\r\n\r\n  return (\r\n    <>\r\n      {/* <Navbar /> */}\r\n      <div style={{ display: 'flex', height: 'auto' }}>\r\n        {/* <Dashboard /> */}\r\n        <div className={styles.container}>\r\n          <div className={styles.chartContainer}>\r\n            <h2>User Growth Over Time</h2>\r\n            <Bar data={chartData} />\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </>\r\n  );\r\n};\r\n\r\nexport default Index;\r\n"
+        }
+    ]
+}

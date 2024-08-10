@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 74,
+            "activePatchIndex": 77,
             "patches": [
                 {
                     "date": 1723093130548,
@@ -304,6 +304,18 @@
                 {
                     "date": 1723116422004,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n       {/* <Dashboardleft /> */}\r\n       <div>\r\n         <Intro />\r\n         <Game />\r\n-        {/* <Feature/> */}\r\n+        <Feature/>\r\n         <About/>\r\n         <div></div>\r\n         <div></div>\r\n       </div>\r\n"
+                },
+                {
+                    "date": 1723184946528,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,11 @@\n import Image from \"next/image\";\r\n \r\n const Index = () => {\r\n   const router = useRouter(); // Initialize useRouter hook\r\n+  useEffect(()=>{\r\n+    const tokens=localStorage.getItem(\"accessToken\")\r\n+  },[])\r\n   return (\r\n     <div className={style.container}>\r\n       {/* <Navbar /> */}\r\n       {/* <Dashboardleft /> */}\r\n"
+                },
+                {
+                    "date": 1723184959998,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,10 @@\n \r\n const Index = () => {\r\n   const router = useRouter(); // Initialize useRouter hook\r\n   useEffect(()=>{\r\n-    const tokens=localStorage.getItem(\"accessToken\")\r\n+    const tokens=localStorage.getItem(\"accessToken\");\r\n+    console.log(tokens)\r\n   },[])\r\n   return (\r\n     <div className={style.container}>\r\n       {/* <Navbar /> */}\r\n"
+                },
+                {
+                    "date": 1723194726620,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,9 @@\n import About from \"@/Components/About\";\r\n import Feature from \"@/Components/Featured\";\r\n import style from \"./index.module.scss\";\r\n import Image from \"next/image\";\r\n+import Review from \"@/Components/Review\";\r\n \r\n const Index = () => {\r\n   const router = useRouter(); // Initialize useRouter hook\r\n   useEffect(()=>{\r\n@@ -23,8 +24,9 @@\n         <Intro />\r\n         <Game />\r\n         <Feature/>\r\n         <About/>\r\n+        <Review />\r\n         <div></div>\r\n         <div></div>\r\n       </div>\r\n     </div>\r\n"
                 }
             ],
             "date": 1723093130548,

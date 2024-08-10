@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 2,
+            "activePatchIndex": 3,
             "patches": [
                 {
                     "date": 1723108565882,
@@ -16,6 +16,10 @@
                 {
                     "date": 1723108825972,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n   return (\r\n     <div className={style.container}>\r\n       <div>\r\n           <video autoPlay muted loop>\r\n-            <source src={video} type=\"video/mp4\" />\r\n+            <source src={\"/video/video.mp4\"} type=\"video/mp4\" />\r\n           </video>\r\n         </div>  \r\n       <div className={style.boxes}>\r\n         <div className={style.box}>\r\n"
+                },
+                {
+                    "date": 1723181463148,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import React from 'react';\r\n import style from './index.module.scss';\r\n-import video from  '@/public/video/video.mp4'\r\n+// import video from  '@/public/video/video.mp4'\r\n const Contact = () => {\r\n   return (\r\n     <div className={style.container}>\r\n       <div>\r\n"
                 }
             ],
             "date": 1723108565882,

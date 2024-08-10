@@ -1,0 +1,18 @@
+{
+    "sourceFile": "Components/Sell/index.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1723210153849,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1723210153849,
+            "name": "Commit-0",
+            "content": "import React from 'react';\r\nimport styles from './index.module.scss'; // Import CSS module for styling\r\n\r\n// Define TypeScript types for the props\r\ninterface Castle {\r\n  customerName?: string;\r\n  skintype?: string;\r\n  quantitySold?: number;\r\n}\r\n\r\ninterface SellProps {\r\n  show: boolean;\r\n  onClose: () => void;\r\n  castle: Castle | null;\r\n  handleInputChange: (field: keyof Castle, value: any) => void;\r\n  handleSave: () => void;\r\n}\r\n\r\nconst Sell: React.FC<SellProps> = ({ show, onClose, castle, handleInputChange, handleSave }) => {\r\n  if (!show || !castle) return null;\r\n\r\n  return (\r\n    <div className={styles.modal}>\r\n      <div className={styles.modalContent}>\r\n        <h2>Sell Castle</h2>\r\n        <form>\r\n          {/* Customer Name */}\r\n          <div className={styles.inputContainer}>\r\n            <label>Customer Name</label>\r\n            <input\r\n              type=\"text\"\r\n              value={castle.customerName || ''}\r\n              onChange={(e) => handleInputChange('customerName', e.target.value)}\r\n            />\r\n          </div>\r\n\r\n          {/* Skin Type */}\r\n          <div className={styles.inputContainer}>\r\n            <label>Skin Type</label>\r\n            <input\r\n              type=\"text\"\r\n              value={castle.skintype || ''}\r\n              onChange={(e) => handleInputChange('skintype', e.target.value)}\r\n            />\r\n          </div>\r\n\r\n          {/* Quantity of Skins Sold */}\r\n          <div className={styles.inputContainer}>\r\n            <label>Quantity of Skins Sold</label>\r\n            <input\r\n              type=\"number\"\r\n              value={castle.quantitySold || ''}\r\n              onChange={(e) => handleInputChange('quantitySold', e.target.value)}\r\n            />\r\n          </div>\r\n\r\n          {/* Save and Cancel buttons */}\r\n          <div className={styles.buttonContainer}>\r\n            <button type=\"button\" onClick={handleSave}>Save</button>\r\n            <button type=\"button\" onClick={onClose}>Cancel</button>\r\n          </div>\r\n        </form>\r\n      </div>\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default Sell;\r\n"
+        }
+    ]
+}
